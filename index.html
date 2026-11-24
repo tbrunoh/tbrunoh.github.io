@@ -124,7 +124,7 @@
       "url": "https://tbrunoh.github.io/",
       "name": "Tom Bruno | Product and Ecosystem Leader, AI Ecosystems",
       "dateCreated": "2026-11-23T18:00:00-08:00",
-      "dateModified": "2026-11-24T13:00:00-08:00",
+      "dateModified": "2026-11-24T14:00:00-08:00",
       "inLanguage": "en-US",
       "mainEntity": {
         "@id": "https://tbrunoh.github.io/#person"
@@ -231,6 +231,7 @@
   .card h3 { font-size: 22px; margin: 12px 0 10px; letter-spacing: -0.3px; }
   .card p { color: var(--muted); font-size: 15px; flex: 1; }
   .card .go { margin-top: 20px; font-size: 14px; font-weight: 600; }
+  .grid.pair { grid-template-columns: repeat(2, 1fr); }
   .t-teal { color: var(--teal); } .t-blue { color: var(--blue); } .t-amber { color: var(--amber); }
   .timeline { margin-top: 36px; display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; position: relative; }
   .timeline::before { content: ""; position: absolute; top: 9px; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue), var(--teal)); opacity: 0.6; }
@@ -251,7 +252,7 @@
   @media (max-width: 860px) {
     header.hero { grid-template-columns: 1fr; padding-top: 32px; }
     .portrait { justify-self: start; width: 200px; height: 200px; order: -1; }
-    .grid, .edu { grid-template-columns: 1fr; }
+    .grid, .grid.pair, .edu { grid-template-columns: 1fr; }
     .timeline { grid-template-columns: 1fr; gap: 22px; }
     .timeline::before { display: none; }
     nav .links { display: none; }
@@ -263,7 +264,7 @@
 <div class="wrap">
   <nav aria-label="Primary">
     <a class="mark" href="#top"><img src="favicon.svg" alt="" width="34" height="34"><span>Tom Bruno<small>Product and Ecosystem Leader, AI Ecosystems</small></span></a>
-    <div class="links"><a href="#work">Work</a><a href="#projects">Projects</a><a href="/ace/">ACE</a><a href="#journey">Journey</a><a href="#connect">Connect</a></div>
+    <div class="links"><a href="#work">Work</a><a href="#projects">Projects</a><a href="/ace/">ACE</a><a href="/writing/">Writing</a><a href="#journey">Journey</a><a href="#connect">Connect</a></div>
   </nav>
 
   <header class="hero" id="top">
@@ -330,6 +331,26 @@
     </div>
   </section>
 
+  <section id="writing" aria-labelledby="writing-h">
+    <div class="eyebrow">Writing</div>
+    <h2 id="writing-h">AI only helps people it can reach</h2>
+    <p class="intro">Essays on AI that works on the phones people already own, and on getting public data to the people it is meant to serve.</p>
+    <div class="grid pair">
+      <a class="card" href="/writing/ai-for-africa-basic-phones/">
+        <span class="tag t-teal">Essay · 24 November 2026</span>
+        <h3>AI for Africa has to work on the phone people already own</h3>
+        <p>Almost a billion Africans live within reach of mobile internet and still do not use it. AI that only works in an app will miss them.</p>
+        <span class="go t-teal">Read the essay →</span>
+      </a>
+      <a class="card" href="/writing/africa-farm-data-last-mile/">
+        <span class="tag t-blue">Essay · 24 November 2026</span>
+        <h3>Africa's farm data is open. The last mile to farmers is the work left to do</h3>
+        <p>Forecasts, rainfall records and soil maps for Africa are free and good. Getting them to a farmer as a decision she can act on is the work left to do.</p>
+        <span class="go t-blue">Read the essay →</span>
+      </a>
+    </div>
+  </section>
+
   <section id="journey" aria-labelledby="journey-h">
     <div class="eyebrow">Journey</div>
     <h2 id="journey-h">From Kenya to Dublin to San Francisco</h2>
@@ -361,6 +382,7 @@
       <a href="https://korext.com">Korext</a>
       <a href="https://oss.korext.com">Korext Open Standards</a>
       <a href="/ace/">ACE</a>
+      <a href="/writing/">Writing</a>
     </div>
   </footer>
 </div>

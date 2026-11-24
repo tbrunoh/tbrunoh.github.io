@@ -6,6 +6,7 @@ Live at **[tbrunoh.github.io](https://tbrunoh.github.io)**. Static pages with no
 
 - `/` the profile page
 - `/ace/` the ACE project page: the problems ACE solves, how it works, coverage, V2 and common questions
+- `/writing/` essays, each with its own page, sources and structured data
 - `llms.txt` a plain summary of the site for AI agents, and `sitemap.xml` for search engines
 
 <sub><a href="https://github.com/tbrunoh">GitHub</a> · <a href="https://www.linkedin.com/in/tbrunoh">LinkedIn</a></sub>

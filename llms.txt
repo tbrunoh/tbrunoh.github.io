@@ -18,6 +18,11 @@ Full name: Tom Bruno Makhanu.
 - [Korext](https://korext.com): a governance runtime for AI generated code, with [seven open standards](https://oss.korext.com) that make AI written software traceable, licensable and accountable.
 - [Inclusive Skin AI](https://github.com/tbrunoh#inclusive-skin-ai): skin analysis built for melanin-rich skin first, with a skin tone model on the Monk Skin Tone scale and an inference API behind a personalized skincare assistant.
 
+## Writing
+
+- [AI for Africa has to work on the phone people already own](https://tbrunoh.github.io/writing/ai-for-africa-basic-phones/), 24 November 2026: almost a billion Africans live within reach of mobile internet and do not use it, so AI for Africa has to run on USSD, SMS and voice, with sources and safety built in.
+- [Africa's farm data is open. The last mile to farmers is the work left to do](https://tbrunoh.github.io/writing/africa-farm-data-last-mile/), 24 November 2026: AI weather forecasts, rainfall records, soil maps and flood forecasts for Africa are free; turning them into decisions on a basic phone is the work left to do.
+
 ## Education
 
 - BS, Digital Technology, Design and Innovation, TU Dublin
@@ -29,6 +34,7 @@ Full name: Tom Bruno Makhanu.
 
 - [Website](https://tbrunoh.github.io/)
 - [ACE project page](https://tbrunoh.github.io/ace/)
+- [Writing](https://tbrunoh.github.io/writing/)
 - [GitHub](https://github.com/tbrunoh)
 - [LinkedIn](https://www.linkedin.com/in/tbrunoh)
 - [Korext on GitHub](https://github.com/tombruno-korext)
