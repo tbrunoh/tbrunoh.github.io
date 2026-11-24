@@ -18,6 +18,7 @@
 <link rel="me" href="https://www.linkedin.com/in/tbrunoh">
 <link rel="me" href="https://github.com/tombruno-korext">
 <meta name="theme-color" content="#050B1C">
+<meta name="msvalidate.01" content="B6AB69B6CDF8BE3D750A9C9B6D77B34F">
 
 <meta property="og:type" content="profile">
 <meta property="og:site_name" content="Tom Bruno">
@@ -111,8 +112,7 @@
       "sameAs": [
         "https://github.com/tbrunoh",
         "https://www.linkedin.com/in/tbrunoh",
-        "https://github.com/tombruno-korext",
-        "https://korext.com"
+        "https://github.com/tombruno-korext"
       ],
       "subjectOf": {
         "@id": "https://github.com/tbrunoh/african-context-engine"
@@ -124,7 +124,7 @@
       "url": "https://tbrunoh.github.io/",
       "name": "Tom Bruno | Product and Ecosystem Leader, AI Ecosystems",
       "dateCreated": "2026-11-23T18:00:00-08:00",
-      "dateModified": "2026-11-24T10:15:00-08:00",
+      "dateModified": "2026-11-24T13:00:00-08:00",
       "inLanguage": "en-US",
       "mainEntity": {
         "@id": "https://tbrunoh.github.io/#person"
@@ -159,6 +159,9 @@
         }
       },
       "codeRepository": "https://github.com/tbrunoh/african-context-engine",
+      "subjectOf": {
+        "@id": "https://tbrunoh.github.io/ace/#webpage"
+      },
       "programmingLanguage": "Python",
       "license": "https://www.apache.org/licenses/LICENSE-2.0",
       "creator": {
@@ -242,6 +245,8 @@
   .edu .live { font-family: var(--mono); font-size: 10px; letter-spacing: 2px; color: var(--teal); margin-top: 10px; }
   .bio { margin-top: 28px; color: var(--soft); max-width: 760px; }
   footer { padding: 56px 0 72px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; color: var(--muted); font-size: 14px; }
+  footer .who { display: flex; flex-direction: column; gap: 4px; }
+  footer .aka { font-size: 12px; color: #64748B; }
   footer .links { flex-wrap: wrap; }
   @media (max-width: 860px) {
     header.hero { grid-template-columns: 1fr; padding-top: 32px; }
@@ -258,7 +263,7 @@
 <div class="wrap">
   <nav aria-label="Primary">
     <a class="mark" href="#top"><img src="favicon.svg" alt="" width="34" height="34"><span>Tom Bruno<small>Product and Ecosystem Leader, AI Ecosystems</small></span></a>
-    <div class="links"><a href="#work">Work</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#connect">Connect</a></div>
+    <div class="links"><a href="#work">Work</a><a href="#projects">Projects</a><a href="/ace/">ACE</a><a href="#journey">Journey</a><a href="#connect">Connect</a></div>
   </nav>
 
   <header class="hero" id="top">
@@ -268,7 +273,7 @@
       <p class="role">Product and Ecosystem Leader, AI Ecosystems</p>
       <p class="lede">I work where AI systems meet the ecosystems around them: the agents, platforms, publishers and developers that have to trust one another for any of it to work. Founder of Korext. Building ACE, an open context engine for Africa.</p>
       <div class="cta">
-        <a class="btn primary" href="https://github.com/tbrunoh/african-context-engine">Explore ACE</a>
+        <a class="btn primary" href="/ace/">Explore ACE</a>
         <a class="btn" href="https://github.com/tbrunoh">GitHub</a>
         <a class="btn" href="https://www.linkedin.com/in/tbrunoh">LinkedIn</a>
       </div>
@@ -304,11 +309,11 @@
     <h2 id="projects-h">Built in the open, outside the day job</h2>
     <p class="intro">Three projects, one thread: AI is only as useful as the ecosystem it can safely reach.</p>
     <div class="grid">
-      <a class="card" href="https://github.com/tbrunoh/african-context-engine">
+      <a class="card" href="/ace/">
         <span class="tag t-teal">Open source</span>
         <h3>ACE, the African Context Engine</h3>
         <p>Checked, local, citable knowledge for Africa on any phone: USSD, SMS, voice, WhatsApp and MCP. One deployment now serves 13 countries in English, Swahili and French, from Kenya and Nigeria to Senegal and South Africa. The caller's number picks the country, and a safety rail answers emergencies with that country's verified numbers. The published V2 design adds decision services built on public weather, flood, soil and health data. Open for contributors.</p>
-        <span class="go t-teal">View the repository →</span>
+        <span class="go t-teal">Read about ACE →</span>
       </a>
       <a class="card" href="https://korext.com">
         <span class="tag t-blue">Founder</span>
@@ -346,13 +351,16 @@
   </section>
 
   <footer id="connect">
-    <span>© 2026 Tom Bruno · Product and Ecosystem Leader, AI Ecosystems</span>
+    <div class="who">
+      <span>© 2026 Tom Bruno · Product and Ecosystem Leader, AI Ecosystems</span>
+      <span class="aka">Full name: Tom Bruno Makhanu</span>
+    </div>
     <div class="links">
       <a href="https://github.com/tbrunoh">GitHub</a>
       <a href="https://www.linkedin.com/in/tbrunoh">LinkedIn</a>
       <a href="https://korext.com">Korext</a>
       <a href="https://oss.korext.com">Korext Open Standards</a>
-      <a href="https://github.com/tbrunoh/african-context-engine">ACE</a>
+      <a href="/ace/">ACE</a>
     </div>
   </footer>
 </div>
