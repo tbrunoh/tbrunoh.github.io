@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://tbrunoh.github.io/sitemap.xml
+# A plain summary of this site for AI agents: https://tbrunoh.github.io/llms.txt

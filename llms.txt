@@ -1,0 +1,31 @@
+# Tom Bruno
+
+> Tom Bruno is a Product and Ecosystem Leader in AI Ecosystems at Google, founder of Korext and creator of ACE, the open source African Context Engine. Born and raised in Kenya, based in the San Francisco Bay Area. He works where AI systems meet the ecosystems around them: the agents, platforms, publishers and developers that have to trust one another for any of it to work.
+
+## Work
+
+- Now, Product and Ecosystem Leader, AI Ecosystems at Google: shaping strategy for how AI agents, platforms and publishers connect, covering access, identity, incentives and the protocols and standards that hold them together.
+- Five years on Chrome: product and platform strategy for a browser used by billions of people, and Chrome Culture Ambassador during the team's shift to new ways of working.
+- Earlier: Global Product Lead for AdSense, after starting full time in Large Customer Sales in Dublin. His Google career began with an internship at Google Kenya.
+- Outside Google: invests in technology led founders in frontier markets with Black Angel Group, and advises Silicon Xchange, which connects Silicon Valley and Africa.
+
+## Projects
+
+- [ACE, the African Context Engine](https://github.com/tbrunoh/african-context-engine): checked, local, citable knowledge for Africa on any phone, over USSD, SMS, voice, WhatsApp and MCP. Release 1.1.0 serves 13 countries in English, Swahili and French, and a safety rail answers emergencies with each country's verified numbers. Open source under Apache 2.0, with context packs under CC BY 4.0.
+- [ACE V2 product design](https://github.com/tbrunoh/african-context-engine/tree/main/docs/v2): turns public weather, flood, soil and health data and open African speech models into twelve decision services and a voice line. Published 24 November 2026.
+- [Korext](https://korext.com): a governance runtime for AI generated code, with [seven open standards](https://oss.korext.com) that make AI written software traceable, licensable and accountable.
+- [Inclusive Skin AI](https://github.com/tbrunoh#inclusive-skin-ai): skin analysis built for melanin-rich skin first, with a skin tone model on the Monk Skin Tone scale and an inference API behind a personalized skincare assistant.
+
+## Education
+
+- BS, Digital Technology, Design and Innovation, TU Dublin
+- MS, Innovation and Entrepreneurship, HEC Paris
+- MEng, AI/ML, Robotics and Controls, UC Berkeley
+- D.Eng, Artificial Intelligence and Machine Learning, George Washington University (in progress)
+
+## Links
+
+- [Website](https://tbrunoh.github.io/)
+- [GitHub](https://github.com/tbrunoh)
+- [LinkedIn](https://www.linkedin.com/in/tbrunoh)
+- [Korext on GitHub](https://github.com/tombruno-korext)
