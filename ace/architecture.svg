@@ -1,53 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" role="img" aria-label="ACE architecture: six entry points share one pseudonymous identity whose dialling code picks the country; the engine runs the safety rail, Scam Shield, checked context retrieval and cited answers over sourced context packs, with an optional model kept to the facts.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050B1C"/>
-      <stop offset="100%" stop-color="#0B2A3F"/>
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="engine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0E7490"/>
-      <stop offset="100%" stop-color="#1E40AF"/>
+      <stop offset="0%" stop-color="#006B69"/>
+      <stop offset="100%" stop-color="#364E3C"/>
     </linearGradient>
     <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-      <path d="M0 0 L10 5 L0 10 z" fill="#2DD4BF"/>
+      <path d="M0 0 L10 5 L0 10 z" fill="#006B69"/>
     </marker>
     <style>
-      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
       .flow { stroke-dasharray: 5 6; animation: f 10s linear infinite; }
       @keyframes f { to { stroke-dashoffset: -110; } }
       @media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+      .serif { font-family: Newsreader, ui-serif, 'New York', 'Iowan Old Style', Georgia, serif; }
     </style>
   </defs>
-  <rect width="1200" height="470" rx="18" fill="url(#bg)"/>
+  <rect width="1199" height="469" rx="18" fill="#FFFFFF" x="0.5" y="0.5" stroke="#E8E2D9" stroke-width="1"/>
 
-  <text x="48" y="54" class="mono" font-size="12" fill="#2DD4BF" letter-spacing="3">ACE ARCHITECTURE</text>
-  <text x="48" y="84" class="sans" font-size="22" font-weight="700" fill="#FFFFFF">Any phone in. Checked, cited answers out.</text>
+  <text x="48" y="54" class="mono" font-size="12" fill="#006B69" letter-spacing="3">ACE ARCHITECTURE</text>
+  <text x="48" y="84" class="serif" font-size="26" font-weight="500" fill="#253239" letter-spacing="-0.4">Any phone in. Checked, cited answers out.</text>
 
-  <text x="48" y="126" class="mono" font-size="11" fill="#94A3B8" letter-spacing="2">ENTRY POINTS</text>
-  <g class="sans" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">
-    <g transform="translate(48.0,138)"><rect width="172" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.05" stroke="#2DD4BF" stroke-opacity="0.45"/><text x="86" y="27">USSD</text></g>
-    <g transform="translate(234.4,138)"><rect width="172" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.05" stroke="#2DD4BF" stroke-opacity="0.45"/><text x="86" y="27">SMS</text></g>
-    <g transform="translate(420.8,138)"><rect width="172" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.05" stroke="#2DD4BF" stroke-opacity="0.45"/><text x="86" y="27">Voice</text></g>
-    <g transform="translate(607.2,138)"><rect width="172" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.05" stroke="#2DD4BF" stroke-opacity="0.45"/><text x="86" y="27">WhatsApp</text></g>
-    <g transform="translate(793.6,138)"><rect width="172" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.05" stroke="#2DD4BF" stroke-opacity="0.45"/><text x="86" y="27">Web and API</text></g>
-    <g transform="translate(980.0,138)"><rect width="172" height="44" rx="22" fill="#2DD4BF" fill-opacity="0.14" stroke="#2DD4BF" stroke-opacity="0.8"/><text x="86" y="27">MCP</text></g>
+  <text x="48" y="126" class="mono" font-size="11" fill="#56636A" letter-spacing="2">ENTRY POINTS</text>
+  <g class="sans" font-size="14" font-weight="600" fill="#253239" text-anchor="middle">
+    <g transform="translate(48.0,138)"><rect width="172" height="44" rx="22" fill="#FFFFFF" stroke="#006B69" stroke-opacity="0.45"/><text x="86" y="27">USSD</text></g>
+    <g transform="translate(234.4,138)"><rect width="172" height="44" rx="22" fill="#FFFFFF" stroke="#006B69" stroke-opacity="0.45"/><text x="86" y="27">SMS</text></g>
+    <g transform="translate(420.8,138)"><rect width="172" height="44" rx="22" fill="#FFFFFF" stroke="#006B69" stroke-opacity="0.45"/><text x="86" y="27">Voice</text></g>
+    <g transform="translate(607.2,138)"><rect width="172" height="44" rx="22" fill="#FFFFFF" stroke="#006B69" stroke-opacity="0.45"/><text x="86" y="27">WhatsApp</text></g>
+    <g transform="translate(793.6,138)"><rect width="172" height="44" rx="22" fill="#FFFFFF" stroke="#006B69" stroke-opacity="0.45"/><text x="86" y="27">Web and API</text></g>
+    <g transform="translate(980.0,138)"><rect width="172" height="44" rx="22" fill="#EDF5F4" stroke="#006B69" stroke-opacity="0.8"/><text x="86" y="27">MCP</text></g>
   </g>
 
-  <path class="flow" d="M600 188 L600 212" stroke="#2DD4BF" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+  <path class="flow" d="M600 188 L600 212" stroke="#006B69" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
 
   <g transform="translate(48,218)" class="sans">
-    <rect width="1104" height="40" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-    <text x="24" y="26" class="mono" font-size="13" fill="#5EEAD4">identity</text>
-    <text x="150" y="26" font-size="14" fill="#CBD5E1">One pseudonymous profile per phone. Its dialling code picks the country, numbers and language. FORGET deletes it all.</text>
+    <rect width="1104" height="40" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+    <text x="24" y="26" class="mono" font-size="13" fill="#006B69">identity</text>
+    <text x="150" y="26" font-size="14" fill="#3E4B52">One pseudonymous profile per phone. Its dialling code picks the country, numbers and language. FORGET deletes it all.</text>
   </g>
 
-  <path class="flow" d="M600 264 L600 288" stroke="#2DD4BF" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+  <path class="flow" d="M600 264 L600 288" stroke="#006B69" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
 
   <g transform="translate(48,294)" class="sans">
     <rect width="1104" height="70" rx="12" fill="url(#engine)"/>
     <text x="24" y="30" font-size="17" font-weight="700" fill="#FFFFFF">Engine</text>
-    <text x="24" y="52" font-size="12" fill="#CCFBF1">Grounded or honest</text>
+    <text x="24" y="52" font-size="12" fill="#DCEDEA">Grounded or honest</text>
     <g font-size="14" font-weight="600" fill="#FFFFFF">
       <rect x="190" y="17" width="190" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.12"/><text x="285" y="40" text-anchor="middle">1  Safety rail</text>
       <rect x="400" y="17" width="190" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.12"/><text x="495" y="40" text-anchor="middle">2  Scam Shield</text>
@@ -56,19 +57,19 @@
     </g>
   </g>
 
-  <path class="flow" d="M330 370 L330 392" stroke="#2DD4BF" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
-  <path class="flow" d="M870 370 L870 392" stroke="#2DD4BF" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+  <path class="flow" d="M330 370 L330 392" stroke="#006B69" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+  <path class="flow" d="M870 370 L870 392" stroke="#006B69" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
 
   <g class="sans">
     <g transform="translate(48,398)">
-      <rect width="544" height="48" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-      <text x="20" y="30" font-size="14" font-weight="700" fill="#FFFFFF">Context packs</text>
-      <text x="150" y="30" font-size="13" fill="#CBD5E1">Sourced, CC BY 4.0  ·  34 countries  ·  eight languages</text>
+      <rect width="544" height="48" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+      <text x="20" y="30" font-size="14" font-weight="700" fill="#253239">Context packs</text>
+      <text x="150" y="30" font-size="13" fill="#3E4B52">Sourced, CC BY 4.0  ·  34 countries  ·  eight languages</text>
     </g>
     <g transform="translate(608,398)">
-      <rect width="544" height="48" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-      <text x="20" y="30" font-size="14" font-weight="700" fill="#FFFFFF">Any model</text>
-      <text x="150" y="30" font-size="13" fill="#CBD5E1">Optional, kept to the facts, extractive fallback</text>
+      <rect width="544" height="48" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+      <text x="20" y="30" font-size="14" font-weight="700" fill="#253239">Any model</text>
+      <text x="150" y="30" font-size="13" fill="#3E4B52">Optional, kept to the facts, extractive fallback</text>
     </g>
   </g>
 </svg>

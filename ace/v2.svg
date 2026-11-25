@@ -1,81 +1,82 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-label="ACE V2 in one picture: public data and open models go in; ACE fetches them into dated snapshots, runs the safety rail first and applies a published decision rule; people get a short, cited answer they can act on, on any phone.">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#050B1C"/><stop offset="100%" stop-color="#0B2A3F"/></linearGradient>
-    <linearGradient id="engine" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0E7490"/><stop offset="100%" stop-color="#1E40AF"/></linearGradient>
-    <linearGradient id="enginev" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0E7490"/><stop offset="100%" stop-color="#1E40AF"/></linearGradient>
-    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2DD4BF"/></marker>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#FFFFFF"/></linearGradient>
+    <linearGradient id="engine" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#006B69"/><stop offset="100%" stop-color="#364E3C"/></linearGradient>
+    <linearGradient id="enginev" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#006B69"/><stop offset="100%" stop-color="#364E3C"/></linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#006B69"/></marker>
     <style>
-      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
       .flow { stroke-dasharray: 5 6; animation: f 10s linear infinite; }
       @keyframes f { to { stroke-dashoffset: -110; } }
       @media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+      .serif { font-family: Newsreader, ui-serif, 'New York', 'Iowan Old Style', Georgia, serif; }
     </style>
   </defs>
-  <rect width="1200" height="540" rx="18" fill="url(#bg)"/>
-  <text x="48" y="54" class="mono" font-size="12" fill="#2DD4BF" letter-spacing="3">ACE V2 IN ONE PICTURE</text>
-  <text x="48" y="84" class="sans" font-size="22" fill="#FFFFFF" font-weight="700">Public data and open models in. A decision a person can act on today, out.</text>
-  <text x="48" y="128" class="mono" font-size="11" fill="#94A3B8" letter-spacing="2">PUBLIC DATA AND MODELS</text>
-  <text x="436" y="128" class="mono" font-size="11" fill="#94A3B8" letter-spacing="2">ACE, OPEN SOURCE</text>
-  <text x="824" y="128" class="mono" font-size="11" fill="#94A3B8" letter-spacing="2">PEOPLE, ON ANY PHONE</text>
-  <rect x="48" y="146" width="328" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-  <text x="66" y="167" class="sans" font-size="14" fill="#FFFFFF" font-weight="700">Weather</text>
-  <text x="66" y="185" class="sans" font-size="12.5" fill="#CBD5E1">WeatherNext, TAHMO stations, CHIRPS</text>
-  <rect x="48" y="204" width="328" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-  <text x="66" y="225" class="sans" font-size="14" fill="#FFFFFF" font-weight="700">Floods and warnings</text>
-  <text x="66" y="243" class="sans" font-size="12.5" fill="#CBD5E1">Flood Forecasting API, official CAP alerts</text>
-  <rect x="48" y="262" width="328" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-  <text x="66" y="283" class="sans" font-size="14" fill="#FFFFFF" font-weight="700">Land and soil</text>
-  <text x="66" y="301" class="sans" font-size="12.5" fill="#CBD5E1">iSDAsoil maps, field boundaries</text>
-  <rect x="48" y="320" width="328" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-  <text x="66" y="341" class="sans" font-size="14" fill="#FFFFFF" font-weight="700">Markets</text>
-  <text x="66" y="359" class="sans" font-size="12.5" fill="#CBD5E1">WFP food prices, FEWS NET</text>
-  <rect x="48" y="378" width="328" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-  <text x="66" y="399" class="sans" font-size="14" fill="#FFFFFF" font-weight="700">Health</text>
-  <text x="66" y="417" class="sans" font-size="12.5" fill="#CBD5E1">Facility registries, WHO guidance</text>
-  <rect x="48" y="436" width="328" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-  <text x="66" y="457" class="sans" font-size="14" fill="#FFFFFF" font-weight="700">Language</text>
-  <text x="66" y="475" class="sans" font-size="12.5" fill="#CBD5E1">WAXAL data, Sunbird and N-ATLaS models</text>
-  <rect x="824" y="146" width="328" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-  <text x="842" y="167" class="sans" font-size="14" fill="#FFFFFF" font-weight="700">Farmer</text>
-  <text x="842" y="185" class="sans" font-size="12.5" fill="#CBD5E1">When to plant, spray or sell</text>
-  <rect x="824" y="204" width="328" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-  <text x="842" y="225" class="sans" font-size="14" fill="#FFFFFF" font-weight="700">Expectant mother</text>
-  <text x="842" y="243" class="sans" font-size="12.5" fill="#CBD5E1">Go now, and where</text>
-  <rect x="824" y="262" width="328" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-  <text x="842" y="283" class="sans" font-size="14" fill="#FFFFFF" font-weight="700">Community health worker</text>
-  <text x="842" y="301" class="sans" font-size="12.5" fill="#CBD5E1">Refer, where and how</text>
-  <rect x="824" y="320" width="328" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-  <text x="842" y="341" class="sans" font-size="14" fill="#FFFFFF" font-weight="700">Trader</text>
-  <text x="842" y="359" class="sans" font-size="12.5" fill="#CBD5E1">Is this message a scam</text>
-  <rect x="824" y="378" width="328" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-  <text x="842" y="399" class="sans" font-size="14" fill="#FFFFFF" font-weight="700">Extension officer</text>
-  <text x="842" y="417" class="sans" font-size="12.5" fill="#CBD5E1">Which wards face a shock</text>
-  <rect x="824" y="436" width="328" height="50" rx="10" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.14"/>
-  <text x="842" y="457" class="sans" font-size="14" fill="#FFFFFF" font-weight="700">Developer</text>
-  <text x="842" y="475" class="sans" font-size="12.5" fill="#CBD5E1">Safety and data in one call</text>
+  <rect width="1199" height="539" rx="18" fill="#FFFFFF" x="0.5" y="0.5" stroke="#E8E2D9" stroke-width="1"/>
+  <text x="48" y="54" class="mono" font-size="12" fill="#006B69" letter-spacing="3">ACE V2 IN ONE PICTURE</text>
+  <text x="48" y="84" class="serif" font-size="26" fill="#253239" font-weight="500" letter-spacing="-0.4">Public data and open models in. A decision a person can act on today, out.</text>
+  <text x="48" y="128" class="mono" font-size="11" fill="#56636A" letter-spacing="2">PUBLIC DATA AND MODELS</text>
+  <text x="436" y="128" class="mono" font-size="11" fill="#56636A" letter-spacing="2">ACE, OPEN SOURCE</text>
+  <text x="824" y="128" class="mono" font-size="11" fill="#56636A" letter-spacing="2">PEOPLE, ON ANY PHONE</text>
+  <rect x="48" y="146" width="328" height="50" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+  <text x="66" y="167" class="sans" font-size="14" fill="#253239" font-weight="700">Weather</text>
+  <text x="66" y="185" class="sans" font-size="12.5" fill="#3E4B52">WeatherNext, TAHMO stations, CHIRPS</text>
+  <rect x="48" y="204" width="328" height="50" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+  <text x="66" y="225" class="sans" font-size="14" fill="#253239" font-weight="700">Floods and warnings</text>
+  <text x="66" y="243" class="sans" font-size="12.5" fill="#3E4B52">Flood Forecasting API, official CAP alerts</text>
+  <rect x="48" y="262" width="328" height="50" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+  <text x="66" y="283" class="sans" font-size="14" fill="#253239" font-weight="700">Land and soil</text>
+  <text x="66" y="301" class="sans" font-size="12.5" fill="#3E4B52">iSDAsoil maps, field boundaries</text>
+  <rect x="48" y="320" width="328" height="50" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+  <text x="66" y="341" class="sans" font-size="14" fill="#253239" font-weight="700">Markets</text>
+  <text x="66" y="359" class="sans" font-size="12.5" fill="#3E4B52">WFP food prices, FEWS NET</text>
+  <rect x="48" y="378" width="328" height="50" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+  <text x="66" y="399" class="sans" font-size="14" fill="#253239" font-weight="700">Health</text>
+  <text x="66" y="417" class="sans" font-size="12.5" fill="#3E4B52">Facility registries, WHO guidance</text>
+  <rect x="48" y="436" width="328" height="50" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+  <text x="66" y="457" class="sans" font-size="14" fill="#253239" font-weight="700">Language</text>
+  <text x="66" y="475" class="sans" font-size="12.5" fill="#3E4B52">WAXAL data, Sunbird and N-ATLaS models</text>
+  <rect x="824" y="146" width="328" height="50" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+  <text x="842" y="167" class="sans" font-size="14" fill="#253239" font-weight="700">Farmer</text>
+  <text x="842" y="185" class="sans" font-size="12.5" fill="#3E4B52">When to plant, spray or sell</text>
+  <rect x="824" y="204" width="328" height="50" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+  <text x="842" y="225" class="sans" font-size="14" fill="#253239" font-weight="700">Expectant mother</text>
+  <text x="842" y="243" class="sans" font-size="12.5" fill="#3E4B52">Go now, and where</text>
+  <rect x="824" y="262" width="328" height="50" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+  <text x="842" y="283" class="sans" font-size="14" fill="#253239" font-weight="700">Community health worker</text>
+  <text x="842" y="301" class="sans" font-size="12.5" fill="#3E4B52">Refer, where and how</text>
+  <rect x="824" y="320" width="328" height="50" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+  <text x="842" y="341" class="sans" font-size="14" fill="#253239" font-weight="700">Trader</text>
+  <text x="842" y="359" class="sans" font-size="12.5" fill="#3E4B52">Is this message a scam</text>
+  <rect x="824" y="378" width="328" height="50" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+  <text x="842" y="399" class="sans" font-size="14" fill="#253239" font-weight="700">Extension officer</text>
+  <text x="842" y="417" class="sans" font-size="12.5" fill="#3E4B52">Which wards face a shock</text>
+  <rect x="824" y="436" width="328" height="50" rx="10" fill="#FFFFFF" stroke="#E8E2D9"/>
+  <text x="842" y="457" class="sans" font-size="14" fill="#253239" font-weight="700">Developer</text>
+  <text x="842" y="475" class="sans" font-size="12.5" fill="#3E4B52">Safety and data in one call</text>
   <rect x="436" y="146" width="328" height="340" rx="14" fill="url(#enginev)"/>
-  <circle cx="470" cy="180.0" r="15" fill="#FFFFFF" fill-opacity="0.16"/>
+  <circle cx="470" cy="180.0" r="15" fill="#FFFFFF" stroke="#E8E2D9"/>
   <text x="470" y="185.0" class="sans" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">1</text>
   <text x="498" y="177.0" class="sans" font-size="14.5" fill="#FFFFFF" font-weight="700">Connectors fetch on a schedule</text>
-  <text x="498" y="195.0" class="sans" font-size="12" fill="#CCFBF1">the only code that calls outside sources</text>
-  <circle cx="470" cy="248.0" r="15" fill="#FFFFFF" fill-opacity="0.16"/>
+  <text x="498" y="195.0" class="sans" font-size="12" fill="#DCEDEA">the only code that calls outside sources</text>
+  <circle cx="470" cy="248.0" r="15" fill="#FFFFFF" stroke="#E8E2D9"/>
   <text x="470" y="253.0" class="sans" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">2</text>
   <text x="498" y="245.0" class="sans" font-size="14.5" fill="#FFFFFF" font-weight="700">Dated, licensed snapshots</text>
-  <text x="498" y="263.0" class="sans" font-size="12" fill="#CCFBF1">every source credited, every date kept</text>
-  <circle cx="470" cy="316.0" r="15" fill="#FFFFFF" fill-opacity="0.16"/>
+  <text x="498" y="263.0" class="sans" font-size="12" fill="#DCEDEA">every source credited, every date kept</text>
+  <circle cx="470" cy="316.0" r="15" fill="#FFFFFF" stroke="#E8E2D9"/>
   <text x="470" y="321.0" class="sans" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">3</text>
   <text x="498" y="313.0" class="sans" font-size="14.5" fill="#FFFFFF" font-weight="700">Safety rail runs first</text>
-  <text x="498" y="331.0" class="sans" font-size="12" fill="#CCFBF1">emergencies get verified numbers</text>
-  <circle cx="470" cy="384.0" r="15" fill="#FFFFFF" fill-opacity="0.16"/>
+  <text x="498" y="331.0" class="sans" font-size="12" fill="#DCEDEA">emergencies get verified numbers</text>
+  <circle cx="470" cy="384.0" r="15" fill="#FFFFFF" stroke="#E8E2D9"/>
   <text x="470" y="389.0" class="sans" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">4</text>
   <text x="498" y="381.0" class="sans" font-size="14.5" fill="#FFFFFF" font-weight="700">A published decision rule</text>
-  <text x="498" y="399.0" class="sans" font-size="12" fill="#CCFBF1">one of twelve decision services</text>
-  <circle cx="470" cy="452.0" r="15" fill="#FFFFFF" fill-opacity="0.16"/>
+  <text x="498" y="399.0" class="sans" font-size="12" fill="#DCEDEA">one of twelve decision services</text>
+  <circle cx="470" cy="452.0" r="15" fill="#FFFFFF" stroke="#E8E2D9"/>
   <text x="470" y="457.0" class="sans" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">5</text>
   <text x="498" y="449.0" class="sans" font-size="14.5" fill="#FFFFFF" font-weight="700">A short, cited answer</text>
-  <text x="498" y="467.0" class="sans" font-size="12" fill="#CCFBF1">with its source, date and next step</text>
-  <path class="flow" d="M384 316.0 L428 316.0" stroke="#2DD4BF" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
-  <path class="flow" d="M772 316.0 L816 316.0" stroke="#2DD4BF" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
-  <text x="600" y="516" class="mono" font-size="13" fill="#5EEAD4" text-anchor="middle">Voice  ·  USSD  ·  SMS  ·  WhatsApp  ·  Web  ·  MCP and API for partners</text>
+  <text x="498" y="467.0" class="sans" font-size="12" fill="#DCEDEA">with its source, date and next step</text>
+  <path class="flow" d="M384 316.0 L428 316.0" stroke="#006B69" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+  <path class="flow" d="M772 316.0 L816 316.0" stroke="#006B69" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+  <text x="600" y="516" class="mono" font-size="13" fill="#006B69" text-anchor="middle">Voice  ·  USSD  ·  SMS  ·  WhatsApp  ·  Web  ·  MCP and API for partners</text>
 </svg>
