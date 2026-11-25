@@ -58,7 +58,7 @@ Open source
 
 ### ACE, the African Context Engine
 
-Open source AI for any phone in Africa: USSD, SMS, voice, WhatsApp and MCP, in eight languages across 34 countries, from Swahili and French to Arabic and Amharic. The caller's number picks the country, emergencies get that country's verified numbers first, and every answer names its source. Six decision services on public data, from rain this week to the nearest health facility, work in every country wherever the data exists. Read about ACE
+Open source AI for any phone in Africa (USSD, SMS/RCS, voice, WhatsApp and MCP), in eight languages across 34 countries, from Swahili and French to Arabic and Amharic. USSD, SMS and voice need no data, and RCS falls back to SMS. The caller's number picks the country, emergencies get that country's verified numbers first, and every answer names its source. Six decision services on public data, from rain this week to the nearest health facility, work in every country wherever the data exists. Read about ACE
 
 Link: https://tbrunoh.github.io/ace/
 
@@ -156,7 +156,7 @@ Open source · Release 2.2 preview
 
 # ACE, the African Context Engine
 
-Checked, local, citable knowledge for Africa, on any phone. ACE answers on USSD, SMS, voice, WhatsApp, the web and MCP, in eight languages across 34 African countries: English, Swahili, French, Portuguese, Arabic, Amharic, Afaan Oromo and Somali.
+Checked, local, citable knowledge for Africa, on any phone (USSD, SMS/RCS, voice, WhatsApp and MCP). ACE answers in eight languages across 34 African countries: English, Swahili, French, Portuguese, Arabic, Amharic, Afaan Oromo and Somali.
 
 Every answer names the published source or dated dataset it came from. Emergencies get the caller's own national numbers before anything else runs. It works with no AI model at all.
 
@@ -199,9 +199,9 @@ What it solves
 
 Any phone
 
-### AI on a basic phone
+### Reach by default, richer by choice
 
-A full USSD menu where every screen fits the phone, in the GSM-7 alphabet or the smaller UCS-2 alphabet Arabic and Amharic need, SMS replies within three segments, a voice menu and WhatsApp, all over the same checked knowledge. No app, no smartphone and no data plan needed.
+USSD, SMS and voice come first, because they reach every phone with no app and no data: a USSD menu where every screen fits, SMS replies within three segments and a keypad voice line. People with a smartphone and data can choose WhatsApp, or RCS where their carrier supports it, to see the sources under every answer, with suggested replies on RCS. RCS falls back to SMS, so a reply never depends on RCS.
 
 Safety first
 
@@ -239,7 +239,7 @@ How it works
 
 Thin adapters turn each channel into one message type. The engine keeps one pseudonymous profile per person across channels, runs the safety rail, then commands, Scam Shield, the V2 decision services and retrieval over sourced context packs, and composes an answer that fits the channel.
 
-[Image: ACE architecture: six entry points share one pseudonymous identity whose dialling code picks the country; the engine runs the safety rail, Scam Shield, checked context retrieval and cited answers over sourced context packs, with an optional model kept to the facts]
+[Image: ACE architecture: USSD, SMS and voice reach any phone by default; WhatsApp, RCS and apps built on the API serve smartphones, with RCS falling back to SMS; the API and MCP serve other services and AI assistants. All share one pseudonymous identity whose dialling code picks the country; the engine runs the safety rail, Scam Shield, checked context retrieval and cited answers over sourced context packs, with an optional model kept to the facts]
 
 #### Grounded or silent
 
@@ -354,15 +354,15 @@ FAQ
 
 ### What is ACE?
 
-ACE, the African Context Engine, is open source software that gives checked, local, citable knowledge for Africa on any phone. It serves USSD, SMS, voice, WhatsApp, the web and AI assistants through MCP, in eight languages across 34 countries.
+ACE, the African Context Engine, is open source software that gives checked, local, citable knowledge for Africa on any phone (USSD, SMS/RCS, voice, WhatsApp and MCP), in eight languages across 34 countries. AI assistants reach it through MCP, and other services through its API.
 
 ### Can I dial ACE today?
 
-Not as a public service yet. ACE is software that a ministry, NGO, telecom or startup deploys behind its own short code, phone line or WhatsApp number. Anyone can try every channel in the browser playground that ships with the code.
+Not as a public service yet. ACE is software that a ministry, NGO, telecom or startup deploys behind its own short code, phone line, WhatsApp number or RCS agent. Anyone can try the USSD and SMS menus in the browser playground that ships with the code.
 
 ### Does ACE need a smartphone or mobile data?
 
-No. USSD, SMS and voice work on any mobile phone without an app or a data plan. WhatsApp and the web are there for people who have them.
+No. USSD, SMS and voice are the default, because they reach any mobile phone with no app and no data plan. People with a smartphone and data can choose WhatsApp, or RCS where their carrier supports it, to see the sources under every answer, with suggested replies on RCS. RCS falls back to SMS, so a reply never depends on RCS. Apps and web pages can also be built on the ACE API.
 
 ### Does ACE work by voice in African languages?
 
@@ -437,7 +437,7 @@ Building for USSD, SMS and voice changes the design from the first screen.
 
 What global models lack is the knowledge underneath a good answer: which hotline handles gender based violence in Ghana, what moisture level keeps maize free of aflatoxin, how a real mobile money message differs from a scam. They do not know these facts reliably. Each service above has built that knowledge, its channels and its safety layer on its own, and the knowledge stays locked inside each one.
 
-That is why I built [ACE, the African Context Engine](https://tbrunoh.github.io/ace/), as open source. ACE serves checked, citable knowledge over USSD, SMS, voice, WhatsApp, the web and MCP, in eight languages across 34 countries, from Swahili and French to Arabic and Amharic. The caller's dialling code picks the country. Emergencies get that country's verified numbers before anything else runs, and every answer names its source. ACE works with no AI model at all, and when one is added, it checks that the model stayed with the facts.
+That is why I built [ACE, the African Context Engine](https://tbrunoh.github.io/ace/), as open source. ACE serves checked, citable knowledge on any phone (USSD, SMS/RCS, voice, WhatsApp and MCP), in eight languages across 34 countries, from Swahili and French to Arabic and Amharic. The caller's dialling code picks the country. Emergencies get that country's verified numbers before anything else runs, and every answer names its source. ACE works with no AI model at all, and when one is added, it checks that the model stayed with the facts.
 
 ## The test for AI in Africa
 
