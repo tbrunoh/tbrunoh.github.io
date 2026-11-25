@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ACE, the African Context Engine | Open source AI for any phone in Africa</title>
-<meta name="description" content="ACE is open source software that gives checked, local, citable knowledge for Africa on any phone, over USSD, SMS, voice, WhatsApp and MCP, with verified emergency numbers for 34 countries in eight languages and a mobile money Scam Shield. Created by Tom Bruno.">
+<meta name="description" content="ACE gives checked, cited answers for Africa on any phone, over USSD, SMS, voice, WhatsApp and MCP, in eight languages across 34 countries. Open source.">
 <meta name="author" content="Tom Bruno">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://tbrunoh.github.io/ace/">
@@ -13,13 +13,14 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="alternate" type="text/markdown" href="/llms.txt" title="Summary for AI agents">
+<link rel="alternate" type="text/markdown" href="/llms-full.txt" title="Full text for AI agents">
 <meta name="theme-color" content="#FFFFFF">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Tom Bruno">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="ACE, the African Context Engine">
-<meta property="og:description" content="Checked, local, citable knowledge for Africa, on any phone. Open source, 34 countries, eight languages, from English and Swahili to Arabic and Amharic.">
+<meta property="og:description" content="ACE gives checked, cited answers for Africa on any phone, over USSD, SMS, voice, WhatsApp and MCP, in eight languages across 34 countries. Open source.">
 <meta property="og:url" content="https://tbrunoh.github.io/ace/">
 <meta property="og:image" content="https://tbrunoh.github.io/ace/og.png">
 <meta property="og:image:width" content="1200">
@@ -27,7 +28,7 @@
 <meta property="og:image:alt" content="ACE, the African Context Engine: checked, local, citable knowledge for Africa, on any phone">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ACE, the African Context Engine">
-<meta name="twitter:description" content="Checked, local, citable knowledge for Africa, on any phone. Open source, 34 countries, eight languages.">
+<meta name="twitter:description" content="ACE gives checked, cited answers for Africa on any phone, over USSD, SMS, voice, WhatsApp and MCP, in eight languages across 34 countries. Open source.">
 <meta name="twitter:image" content="https://tbrunoh.github.io/ace/og.png">
 
 <script type="application/ld+json">
@@ -39,10 +40,10 @@
       "@id": "https://tbrunoh.github.io/ace/#webpage",
       "url": "https://tbrunoh.github.io/ace/",
       "name": "ACE, the African Context Engine | Open source AI for any phone in Africa",
-      "description": "ACE is open source software that gives checked, local, citable knowledge for Africa on any phone, over USSD, SMS, voice, WhatsApp and MCP, with verified emergency numbers for 34 countries in eight languages and a mobile money Scam Shield.",
+      "description": "ACE gives checked, cited answers for Africa on any phone, over USSD, SMS, voice, WhatsApp and MCP, in eight languages across 34 countries. Open source.",
       "inLanguage": "en-US",
       "datePublished": "2026-11-24T13:00:00-08:00",
-      "dateModified": "2026-11-25T10:45:00-08:00",
+      "dateModified": "2026-11-25T11:15:00-08:00",
       "primaryImageOfPage": {
         "@type": "ImageObject",
         "url": "https://tbrunoh.github.io/ace/og.png",
@@ -111,6 +112,92 @@
       "@id": "https://tbrunoh.github.io/#website",
       "url": "https://tbrunoh.github.io/",
       "name": "Tom Bruno"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://tbrunoh.github.io/ace/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is ACE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ACE, the African Context Engine, is open source software that gives checked, local, citable knowledge for Africa on any phone. It serves USSD, SMS, voice, WhatsApp, the web and AI assistants through MCP, in eight languages across 34 countries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I dial ACE today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not as a public service yet. ACE is software that a ministry, NGO, telecom or startup deploys behind its own short code, phone line or WhatsApp number. Anyone can try every channel in the browser playground that ships with the code."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does ACE need a smartphone or mobile data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. USSD, SMS and voice work on any mobile phone without an app or a data plan. WhatsApp and the web are there for people who have them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does ACE work by voice in African languages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, in seven of ACE's eight languages. The keypad voice line works on any phone. It reads English, Swahili, French, Portuguese and Arabic with Google Cloud voices, and plays Amharic and Somali audio made with Gemini TTS when the operator adds a Gemini API key. Afaan Oromo has no voice yet, so Oromo callers hear the next language of their country with a voice and get the full reply on SMS and USSD in Afaan Oromo. Spoken questions work through Google speech recognition where a model exists."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does ACE use a large language model?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It does not need one. By default ACE composes answers directly from checked facts, with no model and no API key. A deployment can add any OpenAI compatible model, and ACE then checks that the model stayed with the facts and falls back when it did not."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which countries and languages does ACE cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "34 countries: Kenya, Tanzania, Uganda, Rwanda, South Africa, Botswana, Namibia, Zimbabwe, Nigeria, Ghana, Senegal, Côte d'Ivoire, Togo, DR Congo, Malawi, Burundi, Cameroon, Benin, Zambia, Chad, Guinea, Burkina Faso, South Sudan, Ethiopia, Mozambique, Guinea-Bissau, Angola, Somalia, Sudan, Algeria, Egypt, Libya, Morocco and Tunisia. Eight languages: English, Swahili, French, Portuguese, Arabic, Amharic, Afaan Oromo and Somali. V2 plans voice in Hausa and Yoruba as well."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can the decision services answer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Whether rain is likely each day this week in a person's area, whether an official warning is in force, the nearest public health facilities, what a food cost in the nearest market, when the next antenatal check is due, and the likely problem with maize, cassava, banana or tomato. Each answer cites a dated dataset or a sourced fact, and the services are labelled a preview until they pass expert review."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is ACE free to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The code is under the Apache License 2.0 and the open context packs are under CC BY 4.0. Third party sources keep their own rights, and each is credited."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is ACE a doctor, agronomist or bank?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. ACE shares published guidance and tells people when and where to get human help. Its safety phrases and translations need review by clinicians and fluent speakers before a public launch, and each deployment is responsible for its own data protection obligations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who created ACE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ACE was created by Tom Bruno, a Product and Ecosystem Leader in AI Ecosystems at Google, as a personal project, and is maintained with the ACE contributors."
+          }
+        }
+      ]
     }
   ]
 }
@@ -124,7 +211,7 @@
 <header class="topbar">
   <div class="wrap">
     <nav aria-label="Primary">
-    <a class="mark" href="/"><img src="/favicon.svg" alt="" width="34" height="34"><span>Tom Bruno<small>Product and Ecosystem Leader, AI Ecosystems</small></span></a>
+    <a class="mark" href="/"><img src="/favicon.svg" alt="" width="34" height="34"><span>Tom Bruno<small>Product and Ecosystem Leader in AI Ecosystems at Google</small></span></a>
     <div class="links"><a href="#problems">Problems</a><a href="#how">How it works</a><a href="#coverage">Coverage</a><a href="#v2">V2</a><a href="#faq">FAQ</a></div>
   </nav>
   </div>
@@ -166,8 +253,8 @@
   <section id="why" aria-labelledby="why-h">
     <div class="eyebrow">Why it exists</div>
     <h2 id="why-h">Almost a billion Africans live within reach of mobile internet and still do not use it</h2>
-    <p class="intro">GSMA's Mobile Economy Africa 2026 report finds that almost 1 billion people in Africa, 63% of the population, live inside mobile broadband coverage but do not use mobile internet. AI that needs a smartphone, an app and a data plan does not reach them. A short code, a text message and a phone call still do.</p>
-    <p class="intro">Services such as Digital Green's FarmerChat, Jacaranda Health's PROMPTS and MTN Rwanda's voice AI show the demand. Each one rebuilds its own knowledge, channels and safety layer, and the knowledge stays locked inside. ACE is the shared, open layer underneath.</p>
+    <p class="intro">Mobile broadband covers 92% of Africa's population, yet only 28% of people use mobile internet on their own devices, according to the <a href="https://www.gsma.com/newsroom/?p=26353">GSMA's Digital Africa Index 2026</a>. That leaves 64% of Africans within reach of the network but not using mobile internet, almost a billion people. AI that needs a smartphone, an app and a data plan does not reach them. A short code, a text message and a phone call still do.</p>
+    <p class="intro">Services such as Digital Green's FarmerChat, Jacaranda Health's PROMPTS and MTN Rwanda's Miss Baza show the demand. Each one rebuilds its own knowledge, channels and safety layer, and the knowledge stays locked inside. ACE is the shared, open layer underneath.</p>
     <p class="note">Read more in two essays: <a href="/writing/ai-for-africa-basic-phones/">AI for Africa has to work on the phone people already own</a> and <a href="/writing/africa-farm-data-last-mile/">Africa's farm data is open. The last mile to farmers is the work left to do</a>.</p>
   </section>
 
@@ -286,7 +373,7 @@
   <section id="speech" class="warm" aria-labelledby="speech-h">
     <div class="eyebrow">Release 2.2 preview · Speech and translation</div>
     <h2 id="speech-h">ACE is now tested on real African speech, and its voice line can now speak Amharic and Somali</h2>
-    <p class="intro">Release 2.2 runs ACE's language guess, safety rail and service router on 12,333 sentences of real speech text from WAXAL, the open African speech corpus from Google Research and six African partners. ACE recognises Amharic, Swahili and Afaan Oromo in 93% to 100% of those sentences, and the safety rail fired on 3 ordinary sentences out of 12,333. The voice line reads English, Swahili, French, Portuguese and Arabic with Google Cloud voices, and plays Amharic and Somali audio made with Gemini 3.8 Flash TTS. No Google model speaks Afaan Oromo yet, so Oromo callers get the full reply on SMS and USSD in their own language.</p>
+    <p class="intro">Release 2.2 runs ACE's language guess, safety rail and service router on 12,333 sentences of real speech text from WAXAL, the open African speech corpus from Google Research and seven African partners. ACE recognises Amharic, Swahili and Afaan Oromo in 93% to 100% of those sentences, and the safety rail fired on 3 ordinary sentences out of 12,333. The voice line reads English, Swahili, French, Portuguese and Arabic with Google Cloud voices, and plays Amharic and Somali audio made with Gemini 3.8 Flash TTS. No Google model speaks Afaan Oromo yet, so Oromo callers get the full reply on SMS and USSD in their own language.</p>
     <p class="note">Optional Google Cloud providers hear spoken questions with Chirp 3, speak replies and give fluent reviewers a back translation of every string. Machine translation never answers a person. The gap is named: ACE still reads many languages it does not speak as Swahili, now in 45.8% of sentences, down from 54.0%. Read the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/speech.md">speech and translation guide</a> and the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/benchmark/results/waxal.md">WAXAL results</a>.</p>
   </section>
 
@@ -357,7 +444,7 @@ ace serve   <span class="c"># phone playground on 127.0.0.1:8000</span></pre>
       </details>
       <details>
         <summary>Who created ACE?</summary>
-        <p>ACE was created by <a href="/">Tom Bruno</a>, a Product and Ecosystem Leader in AI Ecosystems, as a personal project, and is maintained with the ACE contributors.</p>
+        <p>ACE was created by <a href="/">Tom Bruno</a>, a Product and Ecosystem Leader in AI Ecosystems at Google, as a personal project, and is maintained with the ACE contributors.</p>
       </details>
     </div>
   </section>
@@ -367,7 +454,7 @@ ace serve   <span class="c"># phone playground on 127.0.0.1:8000</span></pre>
   <img class="contours" src="/assets/contours.svg" alt="" width="1200" height="72" loading="lazy">
   <div class="row">
     <div class="who">
-      <span>© 2026 Tom Bruno · Product and Ecosystem Leader, AI Ecosystems</span>
+      <span>© 2026 Tom Bruno · Product and Ecosystem Leader in AI Ecosystems at Google</span>
       <span class="aka">Full name: Tom Bruno Makhanu</span>
     </div>
     <div class="links">
