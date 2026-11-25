@@ -13,7 +13,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="alternate" type="text/markdown" href="/llms.txt" title="Summary for AI agents">
-<meta name="theme-color" content="#050B1C">
+<meta name="theme-color" content="#FFFFFF">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Tom Bruno">
 <meta property="og:locale" content="en_US">
@@ -106,49 +106,20 @@
   ]
 }
 </script>
-<style>
-  :root { --bg:#050B1C; --line:rgba(148,163,184,0.16); --text:#F8FAFC; --muted:#94A3B8; --soft:#CBD5E1; --teal:#2DD4BF; --blue:#3B82F6;
-    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif; --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { background: radial-gradient(1200px 600px at 85% -10%, rgba(45,212,191,0.10), transparent 60%), var(--bg); color:var(--text); font-family:var(--sans); line-height:1.6; -webkit-font-smoothing:antialiased; }
-  a { color:inherit; text-decoration:none; }
-  .wrap { max-width:1080px; margin:0 auto; padding:0 28px; }
-  nav { display:flex; justify-content:space-between; align-items:center; padding:28px 0; }
-  .mark { display:flex; align-items:center; gap:12px; font-weight:700; }
-  .mark img { width:34px; height:34px; }
-  .mark span { display:flex; flex-direction:column; line-height:1.2; }
-  .mark small { font-weight:500; font-size:12px; color:var(--muted); }
-  .links { display:flex; gap:26px; font-size:14px; color:var(--muted); }
-  .links a:hover { color:var(--text); }
-  .crumbs { font-size:13px; color:var(--muted); }
-  .crumbs a:hover { color:var(--text); }
-  .eyebrow { font-family:var(--mono); font-size:12px; letter-spacing:4px; color:var(--teal); text-transform:uppercase; }
-  footer { margin-top:72px; padding:56px 0 72px; border-top:1px solid var(--line); display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px; color:var(--muted); font-size:14px; }
-  footer .who { display:flex; flex-direction:column; gap:4px; }
-  footer .aka { font-size:12px; color:#64748B; }
-  footer .links { flex-wrap:wrap; }
-  @media (max-width:860px) { nav .links { display:none; } }
-  @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
-
-  .hub { padding:40px 0 0; }
-  .hub h1 { font-size:clamp(40px,6vw,64px); letter-spacing:-1.5px; line-height:1.05; margin:16px 0 16px; font-weight:800; }
-  .hub .intro { color:var(--muted); font-size:18px; max-width:680px; }
-  .posts { margin-top:40px; display:grid; grid-template-columns:1fr 1fr; gap:20px; }
-  .post { border:1px solid var(--line); border-radius:20px; padding:28px; display:flex; flex-direction:column; background:linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.015)); transition:border-color .2s ease, transform .2s ease; }
-  .post:hover { border-color:rgba(45,212,191,0.5); transform:translateY(-2px); }
-  .post time { font-family:var(--mono); font-size:11px; letter-spacing:3px; color:var(--teal); text-transform:uppercase; }
-  .post h2 { font-size:24px; line-height:1.25; letter-spacing:-0.4px; margin:12px 0 10px; }
-  .post p { color:var(--muted); font-size:15px; flex:1; }
-  .post .go { margin-top:18px; font-size:14px; font-weight:600; color:var(--teal); }
-  @media (max-width:860px) { .posts { grid-template-columns:1fr; } }
-</style>
+<link rel="preload" href="/assets/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/coast.css?v=20261125">
 </head>
 <body>
-<div class="wrap">
-  <nav aria-label="Primary">
+<header class="topbar">
+  <div class="wrap">
+    <nav aria-label="Primary">
     <a class="mark" href="/"><img src="/favicon.svg" alt="" width="34" height="34"><span>Tom Bruno<small>Product and Ecosystem Leader, AI Ecosystems</small></span></a>
-    <div class="links"><a href="/">Home</a><a href="/ace/">ACE</a><a href="/writing/">Writing</a><a href="https://www.linkedin.com/in/tbrunoh">LinkedIn</a></div>
+    <div class="links"><a href="/">Home</a><a href="/ace/">ACE</a><a href="/writing/" aria-current="page">Writing</a><a href="https://www.linkedin.com/in/tbrunoh">LinkedIn</a></div>
   </nav>
+  </div>
+</header>
+<main class="wrap">
   <p class="crumbs"><a href="/">Tom Bruno</a> / Writing</p>
   <section class="hub">
     <div class="eyebrow">Writing</div>
@@ -159,17 +130,20 @@
         <time datetime="2026-11-24">24 November 2026</time>
         <h2>AI for Africa has to work on the phone people already own</h2>
         <p>Almost a billion Africans live within reach of mobile internet and still do not use it. AI that only works in an app will miss them.</p>
-        <span class="go">Read the essay →</span>
+        <span class="go">Read the essay</span>
       </a>
       <a class="post" href="/writing/africa-farm-data-last-mile/">
         <time datetime="2026-11-24">24 November 2026</time>
         <h2>Africa's farm data is open. The last mile to farmers is the work left to do</h2>
         <p>Forecasts, rainfall records and soil maps for Africa are free and good. Getting them to a farmer as a decision she can act on is the work left to do.</p>
-        <span class="go">Read the essay →</span>
+        <span class="go">Read the essay</span>
       </a>
     </div>
   </section>
-  <footer id="connect">
+</main>
+<footer id="connect" class="wrap">
+  <div class="landscape slim"><img src="/assets/coast-to-dunes.svg" alt="" width="1365" height="368" loading="lazy"></div>
+  <div class="row">
     <div class="who">
       <span>© 2026 Tom Bruno · Product and Ecosystem Leader, AI Ecosystems</span>
       <span class="aka">Full name: Tom Bruno Makhanu</span>
@@ -181,7 +155,15 @@
       <a href="https://github.com/tbrunoh">GitHub</a>
       <a href="https://www.linkedin.com/in/tbrunoh">LinkedIn</a>
     </div>
-  </footer>
-</div>
+  </div>
+</footer>
+<script>
+  (function () {
+    var bar = document.querySelector('.topbar');
+    if (!bar) return;
+    var on = function () { bar.classList.toggle('scrolled', window.scrollY > 8); };
+    on(); window.addEventListener('scroll', on, { passive: true });
+  })();
+</script>
 </body>
 </html>
