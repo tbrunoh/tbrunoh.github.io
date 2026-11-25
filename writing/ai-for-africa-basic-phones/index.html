@@ -13,6 +13,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="alternate" type="text/markdown" href="/llms.txt" title="Summary for AI agents">
+<link rel="alternate" type="text/markdown" href="/llms-full.txt" title="Full text for AI agents">
 <meta name="theme-color" content="#FFFFFF">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Tom Bruno">
@@ -25,7 +26,7 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="AI for Africa has to work on the phone people already own">
 <meta property="article:published_time" content="2026-11-24T14:00:00-08:00">
-<meta property="article:modified_time" content="2026-11-25T10:45:00-08:00">
+<meta property="article:modified_time" content="2026-11-25T11:15:00-08:00">
 <meta property="article:author" content="https://tbrunoh.github.io/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="AI for Africa has to work on the phone people already own">
@@ -49,9 +50,9 @@
         "height": 630
       },
       "datePublished": "2026-11-24T14:00:00-08:00",
-      "dateModified": "2026-11-25T10:45:00-08:00",
+      "dateModified": "2026-11-25T11:15:00-08:00",
       "inLanguage": "en-US",
-      "wordCount": 825,
+      "wordCount": 786,
       "keywords": "AI for Africa, AI on feature phones, AI over USSD, AI over SMS, voice AI in African languages, mobile money, ACE, African Context Engine",
       "author": {
         "@id": "https://tbrunoh.github.io/#person"
@@ -70,7 +71,6 @@
         "https://www.gsma.com/newsroom/?p=26353",
         "https://www.gsma.com/newsroom/press-release/gsma-warns-of-emerging-global-ai-divide-as-three-billion-people-remain-offline-and-smartphone-component-costs-soar/",
         "https://www.gsma.com/newsroom/press-release/mobile-money-accounted-for-2-trillion-in-transactions-in-2025-doubling-since-2021-as-active-accounts-continue-to-grow/",
-        "https://www.mobileworldlive.com/gsma/mobile-money-tops-2t-in-annual-transactions/",
         "https://ehealthafrica.org/press-release/jacaranda-health-ehealth-africa-target-25000-mothers-ai-powered-maternal-health-support-nigeria/",
         "https://www.newtimes.co.rw/article/40095/news/featured/no-smartphone-no-internet-mtns-miss-baza-brings-ai-powered-services-to-your-phone",
         "https://www.digitalgreen.org/insights/v2-launch-performance",
@@ -145,7 +145,7 @@
 <header class="topbar">
   <div class="wrap">
     <nav aria-label="Primary">
-    <a class="mark" href="/"><img src="/favicon.svg" alt="" width="34" height="34"><span>Tom Bruno<small>Product and Ecosystem Leader, AI Ecosystems</small></span></a>
+    <a class="mark" href="/"><img src="/favicon.svg" alt="" width="34" height="34"><span>Tom Bruno<small>Product and Ecosystem Leader in AI Ecosystems at Google</small></span></a>
     <div class="links"><a href="/">Home</a><a href="/ace/">ACE</a><a href="/writing/" aria-current="page">Writing</a><a href="https://www.linkedin.com/in/tbrunoh">LinkedIn</a></div>
   </nav>
   </div>
@@ -161,32 +161,32 @@
     </header>
     <div class="body">
 
-<p>Most conversations about AI in Africa start with a smartphone app. That is the wrong place to start. The people who would gain the most from good advice today, a farmer watching caterpillars eat her maize or a mother who has just received a mobile money message that feels wrong, are often holding a phone that cannot run an app at all.</p>
+<p>Most conversations about AI in Africa begin with a smartphone app. The people who would gain most from good advice today, a farmer watching caterpillars eat her maize or a mother reading a mobile money message that feels wrong, often hold a phone that cannot run an app at all.</p>
 
-<h2>The gap is use, not coverage</h2>
-<p><a href="https://www.gsma.com/newsroom/press-release/mobile-technologies-contributed-240-billion-to-africas-economy-in-2025-as-the-continent-enters-a-new-phase-of-digital-transformation/">GSMA's Mobile Economy Africa 2026 report</a> finds that 63% of Africans live within mobile broadband coverage but do not use mobile internet. Only 9% live outside coverage. That is almost a billion people within reach of the network and outside the apps. <a href="https://www.gsma.com/newsroom/?p=26353">GSMA's Digital Africa Index 2026</a> puts it another way: networks cover 92% of Africa's population, yet only 28% use mobile internet on their own devices.</p>
-<p>The main barrier is the device. By the end of 2025, an entry level internet enabled handset cost the poorest fifth of people in Sub-Saharan Africa the equivalent of 76% of their average monthly income, <a href="https://www.gsma.com/newsroom/press-release/gsma-warns-of-emerging-global-ai-divide-as-three-billion-people-remain-offline-and-smartphone-component-costs-soar/">according to GSMA</a>. Since then, memory prices have more than doubled, and entry level smartphone prices are rising, not falling. Waiting for everyone to own a smartphone means waiting a long time.</p>
+<h2>The network reaches people the apps do not</h2>
+<p>Mobile broadband now covers 92% of Africa's population, yet only 28% of people use mobile internet on their own devices, according to the GSMA's <a href="https://www.gsma.com/newsroom/?p=26353">Digital Africa Index 2026</a>. That 64% usage gap is almost a billion people who live within reach of the network and outside the apps.</p>
+<p>The device is a large part of the reason. At the end of 2025, an entry level internet enabled handset cost the poorest fifth of people in Sub-Saharan Africa 76% of their average monthly income, <a href="https://www.gsma.com/newsroom/press-release/gsma-warns-of-emerging-global-ai-divide-as-three-billion-people-remain-offline-and-smartphone-component-costs-soar/">GSMA reports</a>. Memory prices then more than doubled between late 2025 and early 2026, and entry level phones are getting more expensive. A plan that waits for everyone to own a smartphone will wait a long time.</p>
 
 <h2>The channels that already work</h2>
-<p>The channels that need no smartphone and no data plan already carry Africa's most important digital service. Mobile money runs on short code menus and text messages that work on any handset. <a href="https://www.gsma.com/newsroom/press-release/mobile-money-accounted-for-2-trillion-in-transactions-in-2025-doubling-since-2021-as-active-accounts-continue-to-grow/">More than $2 trillion</a> moved through mobile money worldwide in 2025, and <a href="https://www.mobileworldlive.com/gsma/mobile-money-tops-2t-in-annual-transactions/">most of its 593 million monthly active accounts</a> are in Sub-Saharan Africa. People already trust a menu and a text message with their money. The same channels can carry advice.</p>
-<p>The proof is in market today:</p>
+<p>Africa's most important digital service already runs without a smartphone or a data plan. Mobile money works through short code menus and text messages on any handset. <a href="https://www.gsma.com/newsroom/press-release/mobile-money-accounted-for-2-trillion-in-transactions-in-2025-doubling-since-2021-as-active-accounts-continue-to-grow/">More than $2 trillion</a> moved through mobile money wallets worldwide in 2025, and most new accounts came from Sub-Saharan Africa. People already trust a menu and a text message with their money. Those same channels can carry advice.</p>
+<p>Services across the continent are proving it:</p>
 <ul>
-<li><strong>Health by text.</strong> Jacaranda Health's PROMPTS uses two way SMS to support mothers in Kenya through pregnancy and after birth, and <a href="https://ehealthafrica.org/press-release/jacaranda-health-ehealth-africa-target-25000-mothers-ai-powered-maternal-health-support-nigeria/">has reached more than 3.8 million of them</a>.</li>
+<li><strong>Health by text.</strong> Jacaranda Health's PROMPTS sends pregnancy and newborn advice by SMS and answers mothers' questions. It <a href="https://ehealthafrica.org/press-release/jacaranda-health-ehealth-africa-target-25000-mothers-ai-powered-maternal-health-support-nigeria/">has reached more than 3.8 million mothers in Kenya</a> and launched in Kano, Nigeria, in March 2026.</li>
 <li><strong>AI by voice call.</strong> MTN Rwanda and Viamo launched Miss Baza, a voice AI that MTN customers reach by dialling 845. It answers out loud in Kinyarwanda, English, French and Kiswahili, with no app or data bundle, and <a href="https://www.newtimes.co.rw/article/40095/news/featured/no-smartphone-no-internet-mtns-miss-baza-brings-ai-powered-services-to-your-phone">has reached more than 500,000 users</a>.</li>
 <li><strong>Farm advice at scale.</strong> Digital Green's FarmerChat <a href="https://www.digitalgreen.org/insights/v2-launch-performance">reaches nearly 3 million farmers</a> across six countries in more than ten languages.</li>
 </ul>
 
-<h2>What changes when AI runs on a basic phone</h2>
-<p>Building for USSD, SMS and voice is not a smaller version of building an app. It changes the design.</p>
+<h2>Designing for the basic phone</h2>
+<p>Building for USSD, SMS and voice changes the design from the first screen.</p>
 <ul>
-<li><strong>Every word costs.</strong> A USSD screen holds at most 182 characters, and an SMS reply should fit in a few segments. The answer has to be the instruction, not an essay.</li>
+<li><strong>Every word costs.</strong> A USSD screen holds at most 182 characters, and an SMS reply should fit in a few segments. The answer has to be the instruction itself.</li>
 <li><strong>The source travels with the answer.</strong> There is no link to tap and no page of fine print. Where the advice came from has to fit in one line the person can read.</li>
-<li><strong>Safety comes first, literally.</strong> When someone texts that she is bleeding, the right emergency number for her country has to arrive before anything else. A confident model that gives a number from the wrong country is worse than no answer.</li>
-<li><strong>Language is the interface.</strong> Africa is home to more than 30% of the world's languages, while leading AI models are trained mostly on English and other high resource languages, <a href="https://www.gsma.com/newsroom/press-release/mobile-technologies-contributed-240-billion-to-africas-economy-in-2025-as-the-continent-enters-a-new-phase-of-digital-transformation/">GSMA notes</a>. Open data is starting to close that gap: <a href="https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/">WAXAL</a>, an open speech dataset for more than 20 Sub-Saharan African languages spoken by over 100 million people, is free to use under CC BY 4.0.</li>
+<li><strong>Safety comes first.</strong> When someone texts that she is bleeding, the right emergency number for her country has to arrive before anything else. A confident model that gives another country's number does real harm.</li>
+<li><strong>Language is the interface.</strong> Africa is home to more than 30% of the world's languages, while today's leading AI models are trained mostly on English and other high resource languages, <a href="https://www.gsma.com/newsroom/press-release/mobile-technologies-contributed-240-billion-to-africas-economy-in-2025-as-the-continent-enters-a-new-phase-of-digital-transformation/">GSMA notes</a>. Open data is starting to close that gap: <a href="https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/">WAXAL</a>, an open speech dataset from Google Research and African partners, covers 27 Sub-Saharan African languages spoken by over 100 million people and is free to use under CC BY 4.0.</li>
 </ul>
 
-<h2>Knowledge is the bottleneck, not the model</h2>
-<p>The hard part is not the model. It is the knowledge underneath it: which hotline handles gender based violence in Ghana, what moisture level keeps maize free of aflatoxin, how a real mobile money message differs from a scam. Global models do not know these facts reliably. Every service above has had to build that knowledge, its channels and its safety layer on its own, and the knowledge then stays locked inside each one.</p>
+<h2>The missing layer is local knowledge</h2>
+<p>What global models lack is the knowledge underneath a good answer: which hotline handles gender based violence in Ghana, what moisture level keeps maize free of aflatoxin, how a real mobile money message differs from a scam. They do not know these facts reliably. Each service above has built that knowledge, its channels and its safety layer on its own, and the knowledge stays locked inside each one.</p>
 <p>That is why I built <a href="/ace/">ACE, the African Context Engine</a>, as open source. ACE serves checked, citable knowledge over USSD, SMS, voice, WhatsApp, the web and MCP, in eight languages across 34 countries, from Swahili and French to Arabic and Amharic. The caller's dialling code picks the country. Emergencies get that country's verified numbers before anything else runs, and every answer names its source. ACE works with no AI model at all, and when one is added, it checks that the model stayed with the facts.</p>
 
 <h2>The test for AI in Africa</h2>
@@ -196,20 +196,19 @@
     </div>
     <aside class="author">
       <img src="https://github.com/tbrunoh.png?size=128" alt="Portrait of Tom Bruno" width="64" height="64" loading="lazy">
-      <p><b>Tom Bruno</b> is a Product and Ecosystem Leader in AI Ecosystems, founder of Korext and creator of <a href="/ace/">ACE, the African Context Engine</a>. Born and raised in Kenya, he is based in the San Francisco Bay Area.</p>
+      <p><b>Tom Bruno</b> is a Product and Ecosystem Leader in AI Ecosystems at Google, founder of Korext and creator of <a href="/ace/">ACE, the African Context Engine</a>. Born and raised in Kenya, he is based in the San Francisco Bay Area.</p>
     </aside>
     <section class="sources" aria-labelledby="src-h">
       <h2 id="src-h">Sources</h2>
       <ol>
-<li><a href="https://www.gsma.com/newsroom/press-release/mobile-technologies-contributed-240-billion-to-africas-economy-in-2025-as-the-continent-enters-a-new-phase-of-digital-transformation/">GSMA, The Mobile Economy Africa 2026, press release, 16 June 2026</a></li>
-<li><a href="https://www.gsma.com/newsroom/?p=26353">GSMA, Digital Africa Index 2026, 18 November 2026</a></li>
-<li><a href="https://www.gsma.com/newsroom/press-release/gsma-warns-of-emerging-global-ai-divide-as-three-billion-people-remain-offline-and-smartphone-component-costs-soar/">GSMA, emerging global AI divide, 15 September 2026</a></li>
+<li><a href="https://www.gsma.com/newsroom/?p=26353">GSMA, Digital Africa Index 2026, press release, 18 November 2026</a></li>
+<li><a href="https://www.gsma.com/newsroom/press-release/gsma-warns-of-emerging-global-ai-divide-as-three-billion-people-remain-offline-and-smartphone-component-costs-soar/">GSMA, emerging global AI divide, press release, 15 September 2026</a></li>
 <li><a href="https://www.gsma.com/newsroom/press-release/mobile-money-accounted-for-2-trillion-in-transactions-in-2025-doubling-since-2021-as-active-accounts-continue-to-grow/">GSMA, State of the Industry Report on Mobile Money 2026, press release, 24 March 2026</a></li>
-<li><a href="https://www.mobileworldlive.com/gsma/mobile-money-tops-2t-in-annual-transactions/">Mobile World Live, mobile money tops $2 trillion</a></li>
 <li><a href="https://ehealthafrica.org/press-release/jacaranda-health-ehealth-africa-target-25000-mothers-ai-powered-maternal-health-support-nigeria/">eHealth Africa and Jacaranda Health, PROMPTS launch in Kano, 17 March 2026</a></li>
 <li><a href="https://www.newtimes.co.rw/article/40095/news/featured/no-smartphone-no-internet-mtns-miss-baza-brings-ai-powered-services-to-your-phone">The New Times, MTN's Miss Baza, 30 October 2026</a></li>
-<li><a href="https://www.digitalgreen.org/insights/v2-launch-performance">Digital Green, FarmerChat V2</a></li>
-<li><a href="https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/">Google Research, WAXAL</a></li>
+<li><a href="https://www.digitalgreen.org/insights/v2-launch-performance">Digital Green, FarmerChat V2, 9 July 2026</a></li>
+<li><a href="https://www.gsma.com/newsroom/press-release/mobile-technologies-contributed-240-billion-to-africas-economy-in-2025-as-the-continent-enters-a-new-phase-of-digital-transformation/">GSMA, The Mobile Economy Africa 2026, press release, 16 June 2026</a></li>
+<li><a href="https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/">Google Research, WAXAL, 6 March 2026</a></li>
       </ol>
     </section>
     <p class="next">Read next: <a href="/writing/africa-farm-data-last-mile/">Africa's farm data is open. The last mile to farmers is the work left to do</a></p>
@@ -219,7 +218,7 @@
   <img class="contours" src="/assets/contours.svg" alt="" width="1200" height="72" loading="lazy">
   <div class="row">
     <div class="who">
-      <span>© 2026 Tom Bruno · Product and Ecosystem Leader, AI Ecosystems</span>
+      <span>© 2026 Tom Bruno · Product and Ecosystem Leader in AI Ecosystems at Google</span>
       <span class="aka">Full name: Tom Bruno Makhanu</span>
     </div>
     <div class="links">
