@@ -42,7 +42,7 @@
       "description": "ACE is open source software that gives checked, local, citable knowledge for Africa on any phone, over USSD, SMS, voice, WhatsApp and MCP, with verified emergency numbers for 34 countries in eight languages and a mobile money Scam Shield.",
       "inLanguage": "en-US",
       "datePublished": "2026-11-24T13:00:00-08:00",
-      "dateModified": "2026-11-25T07:35:00-08:00",
+      "dateModified": "2026-11-25T09:20:00-08:00",
       "primaryImageOfPage": {
         "@type": "ImageObject",
         "url": "https://tbrunoh.github.io/ace/og.png",
@@ -89,7 +89,7 @@
       "url": "https://github.com/tbrunoh/african-context-engine",
       "codeRepository": "https://github.com/tbrunoh/african-context-engine",
       "programmingLanguage": "Python",
-      "softwareVersion": "2.2.0b1",
+      "softwareVersion": "2.2.0b2",
       "license": "https://www.apache.org/licenses/LICENSE-2.0",
       "isAccessibleForFree": true,
       "keywords": "AI for Africa, USSD, SMS, voice, WhatsApp, MCP, emergency numbers, mobile money scams, fall armyworm, maternal health, Swahili, French, Portuguese, Arabic, Amharic, Afaan Oromo, Somali, public data, AI weather forecasts, early warnings, market prices, health facilities, antenatal care",
@@ -360,8 +360,8 @@
 
   <section id="speech" aria-labelledby="speech-h">
     <div class="eyebrow">Release 2.2 preview · Speech and translation</div>
-    <h2 id="speech-h">ACE is now tested on real African speech, and its voice line speaks only languages a voice exists for</h2>
-    <p class="intro">Release 2.2 runs ACE's language guess, safety rail and service router on 12,333 sentences of real speech text from WAXAL, the open African speech corpus from Google Research and six African partners. ACE recognises Amharic, Swahili and Afaan Oromo in 93% to 100% of those sentences, and the safety rail fired on 3 ordinary sentences out of 12,333. No published voice speaks Amharic, Afaan Oromo or Somali yet, so the voice line speaks the next language of the caller's country that has one, and the full reply arrives on SMS and USSD in the caller's own language.</p>
+    <h2 id="speech-h">ACE is now tested on real African speech, and its voice line can now speak Amharic and Somali</h2>
+    <p class="intro">Release 2.2 runs ACE's language guess, safety rail and service router on 12,333 sentences of real speech text from WAXAL, the open African speech corpus from Google Research and six African partners. ACE recognises Amharic, Swahili and Afaan Oromo in 93% to 100% of those sentences, and the safety rail fired on 3 ordinary sentences out of 12,333. The voice line reads English, Swahili, French, Portuguese and Arabic with Google Cloud voices, and plays Amharic and Somali audio made with Gemini 3.8 Flash TTS. No Google model speaks Afaan Oromo yet, so Oromo callers get the full reply on SMS and USSD in their own language.</p>
     <p class="note">Optional Google Cloud providers hear spoken questions with Chirp 3, speak replies and give fluent reviewers a back translation of every string. Machine translation never answers a person. The gap is named: ACE still reads many languages it does not speak as Swahili, now in 45.8% of sentences, down from 54.0%. Read the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/speech.md">speech and translation guide</a> and the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/benchmark/results/waxal.md">WAXAL results</a>.</p>
   </section>
 
@@ -408,7 +408,7 @@ ace serve   <span class="c"># phone playground on 127.0.0.1:8000</span></pre>
       </details>
       <details>
         <summary>Does ACE work by voice in African languages?</summary>
-        <p>Partly. The keypad voice line works on any phone, and it speaks English, Swahili, French, Portuguese and Arabic. Amharic, Afaan Oromo and Somali callers hear the next language of their country with a voice and get the full reply on SMS and USSD in their own language, because no published voice speaks those three yet. Spoken questions work through Google Cloud speech recognition where a model exists.</p>
+        <p>Yes, in seven of ACE's eight languages. The keypad voice line works on any phone. It reads English, Swahili, French, Portuguese and Arabic with Google Cloud voices, and plays Amharic and Somali audio made with Gemini TTS when the operator adds a Gemini API key. Afaan Oromo has no voice yet, so Oromo callers hear the next language of their country with a voice and get the full reply on SMS and USSD in Afaan Oromo. Spoken questions work through Google speech recognition where a model exists.</p>
       </details>
       <details>
         <summary>Does ACE use a large language model?</summary>
