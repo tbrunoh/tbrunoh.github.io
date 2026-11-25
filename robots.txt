@@ -3,3 +3,4 @@ Allow: /
 
 Sitemap: https://tbrunoh.github.io/sitemap.xml
 # A plain summary of this site for AI agents: https://tbrunoh.github.io/llms.txt
+# The full text of this site in plain text: https://tbrunoh.github.io/llms-full.txt

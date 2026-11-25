@@ -1,0 +1,540 @@
+# Tom Bruno: full text
+
+> The full text of tbrunoh.github.io for AI agents and readers who prefer plain text: the home page, the ACE project page and both essays, with every source link. A shorter summary is at https://tbrunoh.github.io/llms.txt. Updated 25 November 2026.
+
+---
+
+Source page: https://tbrunoh.github.io/
+
+San Francisco Bay Area
+
+# Tom Bruno
+
+Product and Ecosystem Leader in AI Ecosystems at Google
+
+I shape strategy for how AI agents reach the web: what they can access, how they identify themselves, and what publishers and creators get in return. Outside the day job, I founded Korext and created ACE, open source AI for any phone in Africa.
+
+[Explore ACE](https://tbrunoh.github.io/ace/) [GitHub](https://github.com/tbrunoh) [LinkedIn](https://www.linkedin.com/in/tbrunoh)
+
+[Image: Portrait of Tom Bruno]
+
+[Image: A map of Tom Bruno's path from Nairobi, where it began, to Dublin, where his Google career started, to San Francisco today, with TB at the centre of agents, protocols, publishers, merchants, value exchange, trust and developers.]
+
+Nairobi · Dublin · San Francisco
+
+AI is only as useful as the ecosystem it can safely reach.
+
+Work
+
+## More than a decade at Google, from the open web to AI agents
+
+Each role sat where Google meets the businesses that build on it: advertisers, publishers, web developers and now AI platforms.
+
+Now
+
+### Product and Ecosystem Leader in AI Ecosystems
+
+Shaping strategy for how AI agents, platforms and publishers connect: access, identity, incentives and the protocols and standards that hold them together.
+
+Five years
+
+### Chrome
+
+Product and platform strategy for a browser used by billions of people, and Chrome Culture Ambassador during the team's shift to new ways of working.
+
+Earlier
+
+### AdSense and Large Customer Sales
+
+Global Product Lead for AdSense, after starting full time in Large Customer Sales in Dublin. It began with an internship at Google Kenya.
+
+Personal projects
+
+## Three personal projects, each fixing a way AI fails people
+
+ACE checks what AI tells people in Africa, Korext makes AI written code accountable, and Inclusive Skin AI starts from the skin tones most models get wrong.
+
+Open source
+
+### ACE, the African Context Engine
+
+Open source AI for any phone in Africa: USSD, SMS, voice, WhatsApp and MCP, in eight languages across 34 countries, from Swahili and French to Arabic and Amharic. The caller's number picks the country, emergencies get that country's verified numbers first, and every answer names its source. Six decision services on public data, from rain this week to the nearest health facility, work in every country wherever the data exists. Read about ACE
+
+Link: https://tbrunoh.github.io/ace/
+
+Founder
+
+### Korext
+
+A governance runtime for AI generated code, with seven open standards that make AI written software traceable, licensable and accountable, and a signed proof bundle for every scan. korext.com
+
+Link: https://korext.com
+
+Applied AI
+
+### Inclusive Skin AI
+
+Skin analysis models often misread darker skin because they learn mostly from lighter skin. This project starts from melanin-rich skin: photo capture, labeling, a skin tone model on the Monk Skin Tone scale and an inference API, with the code open as a reference. See the project
+
+Link: https://github.com/tbrunoh#inclusive-skin-ai
+
+Writing
+
+## AI only helps people it can reach
+
+Essays on AI that works on the phones people already own, and on getting public data to the people it is meant to serve.
+
+Essay · 24 November 2026
+
+### AI for Africa has to work on the phone people already own
+
+Almost a billion Africans live within reach of mobile internet and still do not use it. AI that only works in an app will miss them. Read the essay
+
+Link: https://tbrunoh.github.io/writing/ai-for-africa-basic-phones/
+
+Essay · 24 November 2026
+
+### Africa's farm data is open. The last mile to farmers is the work left to do
+
+Forecasts, rainfall records and soil maps for Africa are free and good. Getting them to a farmer as a decision she can act on is the work left to do. Read the essay
+
+Link: https://tbrunoh.github.io/writing/africa-farm-data-last-mile/
+
+Career
+
+## From Kenya to Dublin to San Francisco
+
+An internship at Google Kenya, a full time start in Dublin, and the San Francisco Bay Area today.
+
+#### Google Kenya
+
+Intern
+
+#### Large Customer Sales
+
+Google, Ireland
+
+#### AdSense
+
+Global Product Lead
+
+#### Chrome
+
+Product and platform strategy
+
+#### AI Ecosystems
+
+Product and Ecosystem Leader at Google
+
+#### TU Dublin
+
+BS (Hons), Digital Technology, Design and Innovation
+
+#### HEC Paris
+
+MS, Innovation and Entrepreneurship
+
+#### UC Berkeley
+
+MEng, AI/ML, Robotics and Controls
+
+#### George Washington University
+
+D.Eng, Artificial Intelligence and Machine Learning
+
+IN PROGRESS
+
+Born and raised in Kenya. By day I am a Product and Ecosystem Leader in AI Ecosystems at Google, where I have spent more than a decade, including five years shaping product and platform strategy for Chrome, used by billions of people. I invest in technology led founders in frontier markets with Black Angel Group and advise Silicon Xchange, which connects Silicon Valley and Africa.
+
+---
+
+Source page: https://tbrunoh.github.io/ace/
+
+[Tom Bruno](https://tbrunoh.github.io/) / ACE
+
+Open source · Release 2.2 preview
+
+# ACE, the African Context Engine
+
+Checked, local, citable knowledge for Africa, on any phone. ACE answers on USSD, SMS, voice, WhatsApp, the web and MCP, in eight languages across 34 African countries: English, Swahili, French, Portuguese, Arabic, Amharic, Afaan Oromo and Somali.
+
+Every answer names the published source or dated dataset it came from. Emergencies get the caller's own national numbers before anything else runs. It works with no AI model at all.
+
+Six decision services on public data, from rain this week to the nearest health facility, work in every country wherever the data exists, and name the gap wherever it does not.
+
+[View on GitHub](https://github.com/tbrunoh/african-context-engine) [See the V2 services](https://github.com/tbrunoh/african-context-engine/blob/main/docs/services.md) [Contribute](https://tbrunoh.github.io/ace/#contribute)
+
+**34** African countries covered by one engine
+
+**105** verified emergency and helpline numbers
+
+**6** decision services on dated public data
+
+**8** languages, from Swahili and French to Arabic and Amharic
+
+[Image: Map of Africa with the 34 countries ACE serves highlighted in teal.]
+
+Where ACE answers today
+
+34 countries, from Tunisia to South Africa and from Senegal to Somalia
+
+The caller's dialling code picks the country, so every answer carries that country's own emergency numbers, topics and language.
+
+- Served by ACE
+- Not yet covered
+
+Why it exists
+
+## Almost a billion Africans live within reach of mobile internet and still do not use it
+
+Mobile broadband covers 92% of Africa's population, yet only 28% of people use mobile internet on their own devices, according to the [GSMA's Digital Africa Index 2026](https://www.gsma.com/newsroom/?p=26353). That leaves 64% of Africans within reach of the network but not using mobile internet, almost a billion people. AI that needs a smartphone, an app and a data plan does not reach them. A short code, a text message and a phone call still do.
+
+Services such as Digital Green's FarmerChat, Jacaranda Health's PROMPTS and MTN Rwanda's Miss Baza show the demand. Each one rebuilds its own knowledge, channels and safety layer, and the knowledge stays locked inside. ACE is the shared, open layer underneath.
+
+Read more in two essays: [AI for Africa has to work on the phone people already own](https://tbrunoh.github.io/writing/ai-for-africa-basic-phones/) and [Africa's farm data is open. The last mile to farmers is the work left to do](https://tbrunoh.github.io/writing/africa-farm-data-last-mile/).
+
+What it solves
+
+## Six problems ACE solves today
+
+Any phone
+
+### AI on a basic phone
+
+A full USSD menu where every screen fits the phone, in the GSM-7 alphabet or the smaller UCS-2 alphabet Arabic and Amharic need, SMS replies within three segments, a voice menu and WhatsApp, all over the same checked knowledge. No app, no smartphone and no data plan needed.
+
+Safety first
+
+### The right emergency number
+
+Emergency language in any of the eight languages gets the caller's own national numbers and a human handoff before anything else runs. ACE never gives a number from another country, and where no public source publishes one, it does not invent it.
+
+Scam Shield
+
+### Mobile money scams
+
+Forward a suspicious mobile money message and get an explained verdict. In Kenya it cites Safaricom's own guidance; elsewhere it gives no number it cannot cite. It never tells anyone a message is safe.
+
+Cited answers
+
+### Advice people can trust
+
+Crop pests and diseases, maize storage, danger signs in pregnancy and antenatal checks, drawn from WHO, FAO, CIMMYT, CABI, IITA, ICIPE and KALRO guidance. Every answer names its source, and draft or expired facts are withheld by default.
+
+MCP server
+
+### Grounding for AI assistants
+
+Any AI assistant can ask ACE for cited African context, scam checks and emergency numbers. When a language model writes the reply, ACE checks it stayed with the facts and falls back when it did not.
+
+Privacy
+
+### Privacy by design
+
+Phone numbers are stored only as salted hashes. One word, such as FORGET, FUTA or OUBLIER, deletes everything ACE holds about a person. Community tips wait for expert review and are never served until checked.
+
+How it works
+
+## One engine behind every channel, and safety runs first
+
+Thin adapters turn each channel into one message type. The engine keeps one pseudonymous profile per person across channels, runs the safety rail, then commands, Scam Shield, the V2 decision services and retrieval over sourced context packs, and composes an answer that fits the channel.
+
+[Image: ACE architecture: six entry points share one pseudonymous identity whose dialling code picks the country; the engine runs the safety rail, Scam Shield, checked context retrieval and cited answers over sourced context packs, with an optional model kept to the facts]
+
+#### Grounded or silent
+
+Nothing reaches a person unless it comes from a checked fact, a dated snapshot or is a fixed system message.
+
+#### Honest about gaps
+
+When no checked fact matches, or a country has no data for a service, ACE says so and names who to ask.
+
+#### No lock in
+
+Python standard library plus PyYAML. Any OpenAI compatible model server works, including models you host yourself.
+
+Coverage
+
+## Thirty four countries, one engine, and every caller gets their own country's numbers
+
+The caller's dialling code picks the country, so the emergency numbers, topics and default language always fit that person. The 2.2 preview holds 98 facts across 41 packs, each checked against a published public source in November 2026, plus dated snapshots of public data for every country.
+
+- Kenya +254
+- Tanzania +255
+- Uganda +256
+- Rwanda +250
+- South Africa +27
+- Botswana +267
+- Namibia +264
+- Zimbabwe +263
+- Nigeria +234
+- Ghana +233
+- Senegal +221
+- Côte d'Ivoire +225
+- Togo +228
+- DR Congo +243
+- Malawi +265
+- Burundi +257
+- Cameroon +237
+- Benin +229
+- Zambia +260
+- Chad +235
+- Guinea +224
+- Burkina Faso +226
+- South Sudan +211
+- Ethiopia +251
+- Mozambique +258
+- Guinea-Bissau +245
+- Angola +244
+- Somalia +252
+- Sudan +249
+- Algeria +213
+- Egypt +20
+- Libya +218
+- Morocco +212
+- Tunisia +216
+
+Every emergency number expires after a year, and a number watcher rechecks each one against its source every week. Guinea and South Sudan have no national emergency number, so ACE says so and sends people to the nearest health facility. The Swahili and French renderings, and everything in Portuguese, Arabic, Amharic, Afaan Oromo and Somali, await review by fluent speakers. The full table of numbers and sources is in the [README](https://github.com/tbrunoh/african-context-engine#coverage-34-countries).
+
+V2 · Release 2.2 preview, 25 November 2026
+
+## Six decision services now answer from public data, in all 34 countries and eight languages
+
+ACE turns public weather forecasts, official warnings, facility lists, market prices and WHO guidance into short, cited answers on any phone. Each service covers every country wherever open data exists and names the gap where it does not. Release 2.1 added 21 countries, five languages, and replies sized for the alphabet each language travels in. The safety rail still runs first, and every answer carries its source and date.
+
+[Image: ACE V2 in one picture: public data and open models go in; ACE fetches them into dated snapshots, runs the safety rail first and applies a published decision rule; people get a short, cited answer on any phone]
+
+- Rain this week
+- Official warnings
+- Nearest health facility
+- Market prices
+- Pregnancy companion
+- Crop problem check
+
+The services are a preview until they pass expert review, forecast skill and fluent speaker gates. The gaps are named in each answer: rain, the pregnancy companion and the crop check work in all 34 countries, official warnings in 29, the facility finder in 29 (the open list stops at the Sahara) and market prices in 23. Still to come: the planting window, soil advice, flood forecasts, Scam Shield 2, health worker assist, spoken replies in Afaan Oromo, and speech recognition tuned on WAXAL. Read the [2.1 design](https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/release-2.1.md), the [services guide](https://github.com/tbrunoh/african-context-engine/blob/main/docs/services.md), the [product spec](https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/product-spec.md) and the [build plan](https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/build-plan.md).
+
+Release 2.2 preview · Speech and translation
+
+## ACE is now tested on real African speech, and its voice line can now speak Amharic and Somali
+
+Release 2.2 runs ACE's language guess, safety rail and service router on 12,333 sentences of real speech text from WAXAL, the open African speech corpus from Google Research and seven African partners. ACE recognises Amharic, Swahili and Afaan Oromo in 93% to 100% of those sentences, and the safety rail fired on 3 ordinary sentences out of 12,333. The voice line reads English, Swahili, French, Portuguese and Arabic with Google Cloud voices, and plays Amharic and Somali audio made with Gemini 3.8 Flash TTS. No Google model speaks Afaan Oromo yet, so Oromo callers get the full reply on SMS and USSD in their own language.
+
+Optional Google Cloud providers hear spoken questions with Chirp 3, speak replies and give fluent reviewers a back translation of every string. Machine translation never answers a person. The gap is named: ACE still reads many languages it does not speak as Swahili, now in 45.8% of sentences, down from 54.0%. Read the [speech and translation guide](https://github.com/tbrunoh/african-context-engine/blob/main/docs/speech.md) and the [WAXAL results](https://github.com/tbrunoh/african-context-engine/blob/main/benchmark/results/waxal.md).
+
+Contribute
+
+## People who know a place matter as much as people who write code
+
+Local experts
+
+### Extension officers, clinicians, midwives, agronomists and translators
+
+Add facts to a pack, review a translation in Swahili, French, Portuguese, Arabic, Amharic, Afaan Oromo or Somali, or start a pack for your county or country. No coding needed. [Write a context pack →](https://github.com/tbrunoh/african-context-engine/blob/main/docs/context-packs.md)
+
+Developers
+
+### Run it in a few minutes
+
+```
+# Python 3.10 to 3.13
+git clone https://github.com/tbrunoh/african-context-engine.git
+cd african-context-engine
+pip install -e ".[dev]"
+ace demo
+ace serve   # phone playground on 127.0.0.1:8000
+```
+
+[Pick a starter issue →](https://github.com/tbrunoh/african-context-engine/blob/main/docs/good-first-issues.md)
+
+ACE stands on guidance and data published by the World Health Organization, FAO, ICIPE, KALRO, the Kenya Meteorological Department, Safaricom, the UK Foreign, Commonwealth and Development Office, national governments and regulators in all 34 countries, Child Helpline International and others. Each is credited in [ACKNOWLEDGMENTS.md](https://github.com/tbrunoh/african-context-engine/blob/main/ACKNOWLEDGMENTS.md). A credit does not mean the organisation endorses ACE.
+
+FAQ
+
+## Questions people ask about ACE
+
+### What is ACE?
+
+ACE, the African Context Engine, is open source software that gives checked, local, citable knowledge for Africa on any phone. It serves USSD, SMS, voice, WhatsApp, the web and AI assistants through MCP, in eight languages across 34 countries.
+
+### Can I dial ACE today?
+
+Not as a public service yet. ACE is software that a ministry, NGO, telecom or startup deploys behind its own short code, phone line or WhatsApp number. Anyone can try every channel in the browser playground that ships with the code.
+
+### Does ACE need a smartphone or mobile data?
+
+No. USSD, SMS and voice work on any mobile phone without an app or a data plan. WhatsApp and the web are there for people who have them.
+
+### Does ACE work by voice in African languages?
+
+Yes, in seven of ACE's eight languages. The keypad voice line works on any phone. It reads English, Swahili, French, Portuguese and Arabic with Google Cloud voices, and plays Amharic and Somali audio made with Gemini TTS when the operator adds a Gemini API key. Afaan Oromo has no voice yet, so Oromo callers hear the next language of their country with a voice and get the full reply on SMS and USSD in Afaan Oromo. Spoken questions work through Google speech recognition where a model exists.
+
+### Does ACE use a large language model?
+
+It does not need one. By default ACE composes answers directly from checked facts, with no model and no API key. A deployment can add any OpenAI compatible model, and ACE then checks that the model stayed with the facts and falls back when it did not.
+
+### Which countries and languages does ACE cover?
+
+34 countries: Kenya, Tanzania, Uganda, Rwanda, South Africa, Botswana, Namibia, Zimbabwe, Nigeria, Ghana, Senegal, Côte d'Ivoire, Togo, DR Congo, Malawi, Burundi, Cameroon, Benin, Zambia, Chad, Guinea, Burkina Faso, South Sudan, Ethiopia, Mozambique, Guinea-Bissau, Angola, Somalia, Sudan, Algeria, Egypt, Libya, Morocco and Tunisia. Eight languages: English, Swahili, French, Portuguese, Arabic, Amharic, Afaan Oromo and Somali. V2 plans voice in Hausa and Yoruba as well.
+
+### What can the decision services answer?
+
+Whether rain is likely each day this week in a person's area, whether an official warning is in force, the nearest public health facilities, what a food cost in the nearest market, when the next antenatal check is due, and the likely problem with maize, cassava, banana or tomato. Each answer cites a dated dataset or a sourced fact, and the services are labelled a preview until they pass expert review.
+
+### Is ACE free to use?
+
+Yes. The code is under the Apache License 2.0 and the open context packs are under CC BY 4.0. Third party sources keep their own rights, and each is credited.
+
+### Is ACE a doctor, agronomist or bank?
+
+No. ACE shares published guidance and tells people when and where to get human help. Its safety phrases and translations need review by clinicians and fluent speakers before a public launch, and each deployment is responsible for its own data protection obligations.
+
+### Who created ACE?
+
+ACE was created by [Tom Bruno](https://tbrunoh.github.io/), a Product and Ecosystem Leader in AI Ecosystems at Google, as a personal project, and is maintained with the ACE contributors.
+
+---
+
+Source page: https://tbrunoh.github.io/writing/ai-for-africa-basic-phones/
+
+[Tom Bruno](https://tbrunoh.github.io/) / [Writing](https://tbrunoh.github.io/writing/)
+
+Essay
+
+# AI for Africa has to work on the phone people already own
+
+Almost a billion Africans live within reach of mobile internet and still do not use it. AI that only works in an app will miss them.
+
+By [Tom Bruno](https://tbrunoh.github.io/) · 24 November 2026 · 4 minute read
+
+Most conversations about AI in Africa begin with a smartphone app. The people who would gain most from good advice today, a farmer watching caterpillars eat her maize or a mother reading a mobile money message that feels wrong, often hold a phone that cannot run an app at all.
+
+## The network reaches people the apps do not
+
+Mobile broadband now covers 92% of Africa's population, yet only 28% of people use mobile internet on their own devices, according to the GSMA's [Digital Africa Index 2026](https://www.gsma.com/newsroom/?p=26353). That 64% usage gap is almost a billion people who live within reach of the network and outside the apps.
+
+The device is a large part of the reason. At the end of 2025, an entry level internet enabled handset cost the poorest fifth of people in Sub-Saharan Africa 76% of their average monthly income, [GSMA reports](https://www.gsma.com/newsroom/press-release/gsma-warns-of-emerging-global-ai-divide-as-three-billion-people-remain-offline-and-smartphone-component-costs-soar/). Memory prices then more than doubled between late 2025 and early 2026, and entry level phones are getting more expensive. A plan that waits for everyone to own a smartphone will wait a long time.
+
+## The channels that already work
+
+Africa's most important digital service already runs without a smartphone or a data plan. Mobile money works through short code menus and text messages on any handset. [More than $2 trillion](https://www.gsma.com/newsroom/press-release/mobile-money-accounted-for-2-trillion-in-transactions-in-2025-doubling-since-2021-as-active-accounts-continue-to-grow/) moved through mobile money wallets worldwide in 2025, and most new accounts came from Sub-Saharan Africa. People already trust a menu and a text message with their money. Those same channels can carry advice.
+
+Services across the continent are proving it:
+
+- **Health by text.** Jacaranda Health's PROMPTS sends pregnancy and newborn advice by SMS and answers mothers' questions. It [has reached more than 3.8 million mothers in Kenya](https://ehealthafrica.org/press-release/jacaranda-health-ehealth-africa-target-25000-mothers-ai-powered-maternal-health-support-nigeria/) and launched in Kano, Nigeria, in March 2026.
+- **AI by voice call.** MTN Rwanda and Viamo launched Miss Baza, a voice AI that MTN customers reach by dialling 845. It answers out loud in Kinyarwanda, English, French and Kiswahili, with no app or data bundle, and [has reached more than 500,000 users](https://www.newtimes.co.rw/article/40095/news/featured/no-smartphone-no-internet-mtns-miss-baza-brings-ai-powered-services-to-your-phone).
+- **Farm advice at scale.** Digital Green's FarmerChat [reaches nearly 3 million farmers](https://www.digitalgreen.org/insights/v2-launch-performance) across six countries in more than ten languages.
+
+## Designing for the basic phone
+
+Building for USSD, SMS and voice changes the design from the first screen.
+
+- **Every word costs.** A USSD screen holds at most 182 characters, and an SMS reply should fit in a few segments. The answer has to be the instruction itself.
+- **The source travels with the answer.** There is no link to tap and no page of fine print. Where the advice came from has to fit in one line the person can read.
+- **Safety comes first.** When someone texts that she is bleeding, the right emergency number for her country has to arrive before anything else. A confident model that gives another country's number does real harm.
+- **Language is the interface.** Africa is home to more than 30% of the world's languages, while today's leading AI models are trained mostly on English and other high resource languages, [GSMA notes](https://www.gsma.com/newsroom/press-release/mobile-technologies-contributed-240-billion-to-africas-economy-in-2025-as-the-continent-enters-a-new-phase-of-digital-transformation/). Open data is starting to close that gap: [WAXAL](https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/), an open speech dataset from Google Research and African partners, covers 27 Sub-Saharan African languages spoken by over 100 million people and is free to use under CC BY 4.0.
+
+## The missing layer is local knowledge
+
+What global models lack is the knowledge underneath a good answer: which hotline handles gender based violence in Ghana, what moisture level keeps maize free of aflatoxin, how a real mobile money message differs from a scam. They do not know these facts reliably. Each service above has built that knowledge, its channels and its safety layer on its own, and the knowledge stays locked inside each one.
+
+That is why I built [ACE, the African Context Engine](https://tbrunoh.github.io/ace/), as open source. ACE serves checked, citable knowledge over USSD, SMS, voice, WhatsApp, the web and MCP, in eight languages across 34 countries, from Swahili and French to Arabic and Amharic. The caller's dialling code picks the country. Emergencies get that country's verified numbers before anything else runs, and every answer names its source. ACE works with no AI model at all, and when one is added, it checks that the model stayed with the facts.
+
+## The test for AI in Africa
+
+The test I use is simple. Could a farmer in Kakamega or a trader in Kano use it today, on the phone in her hand, in her language, without mobile data? If not, the product is not yet built for Africa. If so, the next question is whether every answer can be traced to a source she would trust.
+
+If you know a place, a language or a channel, [ACE is open for contributors](https://tbrunoh.github.io/ace/).
+
+[Image: Portrait of Tom Bruno]
+
+**Tom Bruno** is a Product and Ecosystem Leader in AI Ecosystems at Google, founder of Korext and creator of [ACE, the African Context Engine](https://tbrunoh.github.io/ace/). Born and raised in Kenya, he is based in the San Francisco Bay Area.
+
+## Sources
+
+1. [GSMA, Digital Africa Index 2026, press release, 18 November 2026](https://www.gsma.com/newsroom/?p=26353)
+2. [GSMA, emerging global AI divide, press release, 15 September 2026](https://www.gsma.com/newsroom/press-release/gsma-warns-of-emerging-global-ai-divide-as-three-billion-people-remain-offline-and-smartphone-component-costs-soar/)
+3. [GSMA, State of the Industry Report on Mobile Money 2026, press release, 24 March 2026](https://www.gsma.com/newsroom/press-release/mobile-money-accounted-for-2-trillion-in-transactions-in-2025-doubling-since-2021-as-active-accounts-continue-to-grow/)
+4. [eHealth Africa and Jacaranda Health, PROMPTS launch in Kano, 17 March 2026](https://ehealthafrica.org/press-release/jacaranda-health-ehealth-africa-target-25000-mothers-ai-powered-maternal-health-support-nigeria/)
+5. [The New Times, MTN's Miss Baza, 30 October 2026](https://www.newtimes.co.rw/article/40095/news/featured/no-smartphone-no-internet-mtns-miss-baza-brings-ai-powered-services-to-your-phone)
+6. [Digital Green, FarmerChat V2, 9 July 2026](https://www.digitalgreen.org/insights/v2-launch-performance)
+7. [GSMA, The Mobile Economy Africa 2026, press release, 16 June 2026](https://www.gsma.com/newsroom/press-release/mobile-technologies-contributed-240-billion-to-africas-economy-in-2025-as-the-continent-enters-a-new-phase-of-digital-transformation/)
+8. [Google Research, WAXAL, 6 March 2026](https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/)
+
+Read next: [Africa's farm data is open. The last mile to farmers is the work left to do](https://tbrunoh.github.io/writing/africa-farm-data-last-mile/)
+
+---
+
+Source page: https://tbrunoh.github.io/writing/africa-farm-data-last-mile/
+
+[Tom Bruno](https://tbrunoh.github.io/) / [Writing](https://tbrunoh.github.io/writing/)
+
+Essay
+
+# Africa's farm data is open. The last mile to farmers is the work left to do
+
+Forecasts, rainfall records and soil maps for Africa are free and good. Getting them to a farmer as a decision she can act on is the work left to do.
+
+By [Tom Bruno](https://tbrunoh.github.io/) · 24 November 2026 · 4 minute read
+
+In 2025, [38 million farmers in India received a forecast](https://climate.uchicago.edu/news/artificial-intelligence-is-helping-indian-farmers-adapt-to-climate-change-forecast-accurately-predicting-an-unusual-monsoon-season-reached-38-million/) on their phones of when the monsoon would arrive, up to four weeks ahead. India's Ministry of Agriculture and Farmers' Welfare sent it, using AI weather models that a University of Chicago team had tested for one of the biggest decisions farmers make: when to plant. The forecast even caught a rare stall: the monsoon advanced for about a week, then stopped for close to three weeks. The Nobel laureate economist Michael Kremer estimates that such forecasts likely return more than $100 to farmers for every dollar a government invests.
+
+African farmers deserve the same. Most of the raw material already exists, and much of it is free.
+
+## The data is now open, and it is good
+
+| Public resource | What it offers a farmer | Access |
+| --- | --- | --- |
+| ECMWF AIFS, an AI weather model | Global forecasts, operational since February 2025, with an ensemble since July 2025 | Free open data |
+| CHIRPS rainfall record | Daily rainfall from 1981 to the present at about 5 km, the baseline for knowing when the rains usually start | Public domain |
+| iSDAsoil | Soil properties across Africa at 30 m, the scale of a smallholder's field, trained on more than 100,000 soil samples | Open access |
+| Google Flood Hub | Riverine flood forecasts up to 7 days ahead, in more than 150 countries | Free and public |
+| WAXAL speech data | Open speech data in 27 Sub-Saharan African languages, for voice answers in Hausa, Yoruba or Luganda | CC BY 4.0 |
+
+Each of these is free to use today. An advisory service no longer has to buy or build its own forecasts, rainfall history or soil maps before it can help a single farmer.
+
+## The last mile is the hard part
+
+None of this reaches a farmer by itself. Three things stand between the data and a decision she can act on.
+
+1. **Turning data into a decision.** A farmer needs to know whether to plant this week, and a probability map leaves that work to her. The India programme chose its models by [how well they predicted the decision that mattered](https://arxiv.org/abs/2602.03767), the start of the monsoon, rather than by forecast skill in general.
+2. **A channel she already uses.** [GSMA finds](https://www.gsma.com/newsroom/?p=26353) that only 28% of Africans use mobile internet on their own devices. For most farmers, advice has to arrive by text, voice or a short code menu, not in an app.
+3. **Trust.** The answer must say where it came from and how sure it is, and it must never be confidently wrong about something that can hurt her. Human extension services are stretched: in Kenya, [the Daily Nation reports](https://nation.africa/kenya/climate/digital-tools-bridge-kenya-s-extension-gap-as-farmers-face-climate-shocks-5599768) that public extension officers are dwindling while the number of farmers who need technical advice grows. Digital advice has to earn the trust those officers built.
+
+The demand is real. Digital Green's FarmerChat [reaches nearly 3 million farmers](https://www.digitalgreen.org/insights/v2-launch-performance), and Digital Green reports that around seventy percent of them act on the advice they receive.
+
+## What a good last mile looks like
+
+A farmer in Kitui gets a text in Swahili on a Thursday: rain is likely on Friday and Saturday, dry from Sunday; plant after the first soaking rain. One line underneath says which forecast it came from and when. If she replies with a question about armyworm, the answer cites FAO and ICIPE guidance. If she texts about an emergency, she gets her own country's emergency numbers before anything else.
+
+That message works on any phone, and every line in it can be checked.
+
+## Build the last mile once, and share it
+
+Today, most advisory services in Africa rebuild the same pipes: fetching forecasts, cleaning soil data, writing decision rules, handling SMS and USSD, and checking safety. That spends scarce money on plumbing and leaves each service with its own blind spots. The open, dated and cited layer should be built once and shared.
+
+That is what V2 of [ACE, the open source African Context Engine](https://tbrunoh.github.io/ace/), sets out to do: turn public weather, flood, soil and health data into short decisions on any phone, each with its source and date. The first six services shipped on 24 November 2026 as an open source preview, covering ACE's countries wherever open data exists, 34 of them since release 2.1: rain this week, official warnings, the nearest health facility, market prices, a pregnancy companion and a crop problem check. The planting window, flood warnings and soil advice come next.
+
+If you run a met service, an extension programme, a telecom or an advisory service, the open data is ready for you to use. [ACE is open](https://tbrunoh.github.io/ace/), and I would welcome partners in any of its 34 countries who want to test the last mile with farmers.
+
+[Image: Portrait of Tom Bruno]
+
+**Tom Bruno** is a Product and Ecosystem Leader in AI Ecosystems at Google, founder of Korext and creator of [ACE, the African Context Engine](https://tbrunoh.github.io/ace/). Born and raised in Kenya, he is based in the San Francisco Bay Area.
+
+## Sources
+
+1. [University of Chicago, 38 million farmers received AI monsoon forecasts](https://climate.uchicago.edu/news/artificial-intelligence-is-helping-indian-farmers-adapt-to-climate-change-forecast-accurately-predicting-an-unusual-monsoon-season-reached-38-million/)
+2. [UC Berkeley News, AI weather prediction for farmers in India, 16 September 2025](https://news.berkeley.edu/2025/09/16/ai-revolutionizes-weather-prediction-to-help-farmers-in-india/)
+3. [ECMWF, AIFS machine learning data](https://ecmwf.int/en/forecasts/dataset/aifs-machine-learning-data)
+4. [ECMWF, AIFS ensemble becomes operational, 1 July 2025](https://www.ecmwf.int/en/about/media-centre/news/2025/ecmwfs-ensemble-ai-forecasts-become-operational)
+5. [Climate Hazards Center, CHIRPS](https://chc.ucsb.edu/data/chirps)
+6. [Google Earth Engine catalog, CHIRPS terms of use](https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY)
+7. [Miller et al., iSDAsoil, PLoS Biology 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8584968/)
+8. [Decision-oriented benchmarking of AI weather forecasts for the Indian monsoon, arXiv 2026](https://arxiv.org/abs/2602.03767)
+9. [Google Research, Flood Forecasting](https://sites.research.google/floodforecasting)
+10. [Google Research, WAXAL](https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/)
+11. [Google Africa, Introducing WAXAL](https://blog.google/intl/en-africa/company-news/outreach-and-initiatives/introducing-waxal-a-new-open-dataset-for-african-speech-technology/)
+12. [GSMA, Digital Africa Index 2026, 18 November 2026](https://www.gsma.com/newsroom/?p=26353)
+13. [Daily Nation, digital tools bridge Kenya's extension gap](https://nation.africa/kenya/climate/digital-tools-bridge-kenya-s-extension-gap-as-farmers-face-climate-shocks-5599768)
+14. [Digital Green, FarmerChat V2](https://www.digitalgreen.org/insights/v2-launch-performance)
+
+Read next: [AI for Africa has to work on the phone people already own](https://tbrunoh.github.io/writing/ai-for-africa-basic-phones/)

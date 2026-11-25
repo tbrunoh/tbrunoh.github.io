@@ -6,10 +6,10 @@ Full name: Tom Bruno Makhanu.
 
 ## Work
 
-- Now, Product and Ecosystem Leader, AI Ecosystems at Google: shaping strategy for how AI agents, platforms and publishers connect, covering access, identity, incentives and the protocols and standards that hold them together.
+- Now, Product and Ecosystem Leader in AI Ecosystems at Google: shaping strategy for how AI agents, platforms and publishers connect, covering access, identity, incentives and the protocols and standards that hold them together.
 - Five years on Chrome: product and platform strategy for a browser used by billions of people, and Chrome Culture Ambassador during the team's shift to new ways of working.
 - Earlier: Global Product Lead for AdSense, after starting full time in Large Customer Sales in Dublin. His Google career began with an internship at Google Kenya.
-- Outside Google: invests in technology led founders in frontier markets with Black Angel Group, and advises Silicon Xchange, which connects Silicon Valley and Africa.
+- Outside Google: Korext, ACE and Inclusive Skin AI are personal projects, separate from his work at Google. He invests in technology led founders in frontier markets with Black Angel Group, and advises Silicon Xchange, which connects Silicon Valley and Africa.
 
 ## Projects
 
@@ -27,7 +27,7 @@ Full name: Tom Bruno Makhanu.
 
 ## Education
 
-- BS, Digital Technology, Design and Innovation, TU Dublin
+- BS (Hons), Digital Technology, Design and Innovation, TU Dublin
 - MS, Innovation and Entrepreneurship, HEC Paris
 - MEng, AI/ML, Robotics and Controls, UC Berkeley
 - D.Eng, Artificial Intelligence and Machine Learning, George Washington University (in progress)
@@ -40,3 +40,7 @@ Full name: Tom Bruno Makhanu.
 - [GitHub](https://github.com/tbrunoh)
 - [LinkedIn](https://www.linkedin.com/in/tbrunoh)
 - [Korext on GitHub](https://github.com/tombruno-korext)
+
+## Optional
+
+- [Full text of the site](https://tbrunoh.github.io/llms-full.txt): the home page, the ACE project page and both essays in plain text, with every source link.
