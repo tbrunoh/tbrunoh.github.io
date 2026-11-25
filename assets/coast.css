@@ -85,8 +85,8 @@ h4, h3.minor { font-family: var(--sans); font-size: 16px; font-weight: 600; line
 .intro { color: var(--stone); max-width: 740px; font-size: 18px; line-height: 1.6; text-wrap: pretty; }
 .intro + .intro { margin-top: 12px; }
 .note { margin-top: 20px; font-size: 15px; color: var(--stone); max-width: 840px; }
-.intro a, .note a, details a, .bio a { color: var(--tide); text-decoration: underline; text-decoration-color: rgba(0, 107, 105, 0.35); text-underline-offset: 3px; transition: text-decoration-color .2s var(--ease); }
-.intro a:hover, .note a:hover, details a:hover, .bio a:hover { text-decoration-color: var(--tide); }
+.intro a, .note a, details a, .bio a, .meta a, .author a { color: var(--tide); text-decoration: underline; text-decoration-color: rgba(0, 107, 105, 0.35); text-underline-offset: 3px; transition: text-decoration-color .2s var(--ease); }
+.intro a:hover, .note a:hover, details a:hover, .bio a:hover, .meta a:hover, .author a:hover { text-decoration-color: var(--tide); }
 
 /* Buttons */
 .cta { margin-top: 36px; display: flex; flex-wrap: wrap; gap: 12px; }
@@ -249,7 +249,6 @@ td { color: var(--basalt); line-height: 1.55; }
 .author img { width: 64px; height: 64px; border-radius: 16px; flex: none; }
 .author p { font-size: 15px; color: var(--stone); }
 .author b { color: var(--basalt); }
-.author a { color: var(--tide); }
 .sources { margin-top: 44px; }
 .sources h2 { font-family: var(--sans); font-size: 12.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--tide); font-weight: 640; margin-top: 0; }
 .sources ol { margin-top: 14px; padding-left: 20px; }
