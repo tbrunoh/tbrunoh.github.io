@@ -64,7 +64,7 @@ nav { display: flex; justify-content: space-between; align-items: center; height
 .links a { transition: color .2s var(--ease); }
 .links a:hover, .links a[aria-current="page"] { color: var(--basalt); }
 .crumbs { font-size: 13px; color: var(--stone); }
-.crumbs a { color: var(--tide); }
+.crumbs a { color: var(--tide); text-decoration: underline; text-underline-offset: 2px; }
 .crumbs a:hover { color: var(--tide-deep); }
 
 /* Type */
@@ -77,7 +77,7 @@ h1 { font-size: clamp(48px, 7.4vw, 92px); line-height: 1.0; letter-spacing: -0.0
 h2 { font-size: clamp(30px, 3.8vw, 44px); line-height: 1.1; letter-spacing: -0.025em; margin: 14px 0 16px; max-width: 880px; text-wrap: balance; }
 h1.compact { font-size: clamp(44px, 5.6vw, 76px); }
 h3 { font-size: 23px; line-height: 1.22; letter-spacing: -0.015em; }
-h4 { font-size: 16px; font-weight: 600; letter-spacing: -0.1px; }
+h4, h3.minor { font-family: var(--sans); font-size: 16px; font-weight: 600; line-height: 1.6; letter-spacing: -0.1px; }
 .role { font-size: clamp(19px, 2vw, 23px); color: var(--basalt); font-weight: 500; letter-spacing: -0.2px; text-wrap: balance; }
 @media (min-width: 861px) { .role { white-space: nowrap; } }
 .lede { margin-top: 18px; font-size: 19px; line-height: 1.6; color: var(--stone); max-width: 600px; text-wrap: pretty; }
@@ -162,11 +162,11 @@ a.card:hover .go::after { transform: translateX(3px); }
 .dot { width: 20px; height: 20px; border-radius: 50%; background: var(--white); border: 2px solid var(--tide); box-shadow: 0 0 0 5px var(--white); }
 .step:first-child .dot { border-color: var(--gold); }
 .step:last-child .dot { background: var(--tide); }
-.step h4 { margin-top: 20px; }
+.step h4, .step h3.minor { margin-top: 20px; }
 .step p { color: var(--stone); font-size: 14px; margin-top: 2px; }
 .edu { margin-top: 48px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
 .edu > div { border: 1px solid var(--line); border-radius: 18px; padding: 22px; background: var(--white); }
-.edu h4 { font-size: 15px; }
+.edu h4, .edu h3.minor { font-size: 15px; }
 .edu p { color: var(--stone); font-size: 13.5px; margin-top: 6px; line-height: 1.5; }
 .edu .live { font-family: var(--sans); font-size: 11px; font-weight: 640; letter-spacing: 0.13em; color: var(--tide); margin-top: 12px; display: inline-flex; align-items: center; gap: 8px; }
 .edu .live::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--gold); }
@@ -263,7 +263,7 @@ td { color: var(--basalt); line-height: 1.55; }
 footer { padding: 40px 0 64px; color: var(--stone); font-size: 14px; }
 footer .row { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
 footer .who { display: flex; flex-direction: column; gap: 4px; }
-footer .aka { font-size: 12px; color: var(--stone); opacity: 0.85; }
+footer .aka { font-size: 12px; color: var(--stone); }
 footer .links { flex-wrap: wrap; gap: 22px; }
 
 /* Arrival: content rises gently on first view */
@@ -289,7 +289,7 @@ footer .links { flex-wrap: wrap; gap: 22px; }
   .timeline::before { top: 10px; bottom: 10px; left: 9px; right: auto; width: 2px; height: auto; background: linear-gradient(180deg, var(--gold), var(--sand) 45%, var(--tide)); }
   .step { padding-left: 40px; padding-right: 0; }
   .dot { position: absolute; left: 0; top: 0; }
-  .step h4 { margin-top: 0; }
+  .step h4, .step h3.minor { margin-top: 0; }
   section { padding: 72px 0; }
   section.warm { margin: 0 -22px; padding-left: 22px; padding-right: 22px; border-radius: 24px; }
   .panel { border-radius: 20px; }
