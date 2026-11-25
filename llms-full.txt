@@ -106,39 +106,39 @@ Career
 
 An internship at Google Kenya, a full time start in Dublin, and the San Francisco Bay Area today.
 
-#### Google Kenya
+### Google Kenya
 
 Intern
 
-#### Large Customer Sales
+### Large Customer Sales
 
 Google, Ireland
 
-#### AdSense
+### AdSense
 
 Global Product Lead
 
-#### Chrome
+### Chrome
 
 Product and platform strategy
 
-#### AI Ecosystems
+### AI Ecosystems
 
 Product and Ecosystem Leader at Google
 
-#### TU Dublin
+### TU Dublin
 
 BS (Hons), Digital Technology, Design and Innovation
 
-#### HEC Paris
+### HEC Paris
 
 MS, Innovation and Entrepreneurship
 
-#### UC Berkeley
+### UC Berkeley
 
 MEng, AI/ML, Robotics and Controls
 
-#### George Washington University
+### George Washington University
 
 D.Eng, Artificial Intelligence and Machine Learning
 
@@ -241,15 +241,15 @@ Thin adapters turn each channel into one message type. The engine keeps one pseu
 
 [Image: ACE architecture: USSD, SMS and voice reach any phone by default; WhatsApp, RCS and apps built on the API serve smartphones, with RCS falling back to SMS; the API and MCP serve other services and AI assistants. All share one pseudonymous identity whose dialling code picks the country; the engine runs the safety rail, Scam Shield, checked context retrieval and cited answers over sourced context packs, with an optional model kept to the facts]
 
-#### Grounded or silent
+### Grounded or silent
 
 Nothing reaches a person unless it comes from a checked fact, a dated snapshot or is a fixed system message.
 
-#### Honest about gaps
+### Honest about gaps
 
 When no checked fact matches, or a country has no data for a service, ACE says so and names who to ask.
 
-#### No lock in
+### No lock in
 
 Python standard library plus PyYAML. Any OpenAI compatible model server works, including models you host yourself.
 
