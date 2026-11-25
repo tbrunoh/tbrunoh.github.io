@@ -42,7 +42,7 @@
       "description": "ACE is open source software that gives checked, local, citable knowledge for Africa on any phone, over USSD, SMS, voice, WhatsApp and MCP, with verified emergency numbers for 34 countries in eight languages and a mobile money Scam Shield.",
       "inLanguage": "en-US",
       "datePublished": "2026-11-24T13:00:00-08:00",
-      "dateModified": "2026-11-25T10:00:00-08:00",
+      "dateModified": "2026-11-25T10:45:00-08:00",
       "primaryImageOfPage": {
         "@type": "ImageObject",
         "url": "https://tbrunoh.github.io/ace/og.png",
@@ -118,7 +118,7 @@
 
 <link rel="preload" href="/assets/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/coast.css?v=20261125">
+<link rel="stylesheet" href="/assets/coast.css?v=20261125b">
 </head>
 <body>
 <header class="topbar">
@@ -153,7 +153,15 @@
       <div class="stat"><b>8</b><span>languages, from Swahili and French to Arabic and Amharic</span></div>
     </div>
   </header>
-  <div class="landscape rise d3"><img src="/assets/coast-to-dunes.svg" alt="" width="1365" height="368"></div>
+  <figure class="panel coverage rise d3">
+    <img src="/assets/ace-coverage.svg" width="499" height="520" alt="Map of Africa with the 34 countries ACE serves highlighted in teal.">
+    <figcaption>
+      <span class="eyebrow">Where ACE answers today</span>
+      <p class="serif cov-title">34 countries, from Tunisia to South Africa and from Senegal to Somalia</p>
+      <p>The caller's dialling code picks the country, so every answer carries that country's own emergency numbers, topics and language.</p>
+      <ul class="legend"><li><i></i>Served by ACE</li><li><i class="sand"></i>Not yet covered</li></ul>
+    </figcaption>
+  </figure>
 
   <section id="why" aria-labelledby="why-h">
     <div class="eyebrow">Why it exists</div>
@@ -205,7 +213,7 @@
     <h2 id="how-h">One engine behind every channel, and safety runs first</h2>
     <p class="intro">Thin adapters turn each channel into one message type. The engine keeps one pseudonymous profile per person across channels, runs the safety rail, then commands, Scam Shield, the V2 decision services and retrieval over sourced context packs, and composes an answer that fits the channel.</p>
     <figure>
-      <img src="/ace/architecture.svg" alt="ACE architecture: six entry points share one pseudonymous identity whose dialling code picks the country; the engine runs the safety rail, Scam Shield, checked context retrieval and cited answers over sourced context packs, with an optional model kept to the facts" width="1200" height="470" loading="lazy">
+      <img src="/ace/architecture.svg" alt="ACE architecture: six entry points share one pseudonymous identity whose dialling code picks the country; the engine runs the safety rail, Scam Shield, checked context retrieval and cited answers over sourced context packs, with an optional model kept to the facts" width="1000" height="540" loading="lazy">
     </figure>
     <div class="points">
       <div><h4>Grounded or silent</h4><p>Nothing reaches a person unless it comes from a checked fact, a dated snapshot or is a fixed system message.</p></div>
@@ -262,7 +270,7 @@
     <h2 id="v2-h">Six decision services now answer from public data, in all 34 countries and eight languages</h2>
     <p class="intro">ACE turns public weather forecasts, official warnings, facility lists, market prices and WHO guidance into short, cited answers on any phone. Each service covers every country wherever open data exists and names the gap where it does not. Release 2.1 added 21 countries, five languages, and replies sized for the alphabet each language travels in. The safety rail still runs first, and every answer carries its source and date.</p>
     <figure>
-      <img src="/ace/v2.svg" alt="ACE V2 in one picture: public data and open models go in; ACE fetches them into dated snapshots, runs the safety rail first and applies a published decision rule; people get a short, cited answer on any phone" width="1200" height="540" loading="lazy">
+      <img src="/ace/v2.svg" alt="ACE V2 in one picture: public data and open models go in; ACE fetches them into dated snapshots, runs the safety rail first and applies a published decision rule; people get a short, cited answer on any phone" width="1000" height="656" loading="lazy">
     </figure>
     <ul class="services" aria-label="The six services in the 2.1 preview">
       <li>Rain this week</li>
@@ -356,7 +364,7 @@ ace serve   <span class="c"># phone playground on 127.0.0.1:8000</span></pre>
 
 </main>
 <footer id="connect" class="wrap">
-  <div class="landscape slim"><img src="/assets/coast-to-dunes.svg" alt="" width="1365" height="368" loading="lazy"></div>
+  <img class="contours" src="/assets/contours.svg" alt="" width="1200" height="72" loading="lazy">
   <div class="row">
     <div class="who">
       <span>© 2026 Tom Bruno · Product and Ecosystem Leader, AI Ecosystems</span>
