@@ -297,7 +297,9 @@ footer .links { flex-wrap: wrap; gap: 22px; }
   .coverage img { max-width: 300px; }
   nav { height: auto; flex-wrap: wrap; row-gap: 10px; padding: 14px 0 12px; }
   .mark small { display: none; }
-  nav .links { width: 100%; gap: 20px; overflow-x: auto; scrollbar-width: none; font-size: 14px; white-space: nowrap; }
+  nav .links { width: 100%; gap: 20px; overflow-x: auto; scrollbar-width: none; font-size: 14px; white-space: nowrap;
+    padding-right: 28px; -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); }
   nav .links::-webkit-scrollbar { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
