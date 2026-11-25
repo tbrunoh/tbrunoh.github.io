@@ -85,14 +85,14 @@
       "@id": "https://github.com/tbrunoh/african-context-engine",
       "name": "ACE: the African Context Engine",
       "alternateName": "African Context Engine",
-      "description": "Checked, local, citable knowledge for Africa on any phone: USSD, SMS, voice, WhatsApp and MCP, with a safety rail, a Scam Shield and verified emergency numbers for 13 countries in English, Swahili and French. The published V2 design turns public weather, flood, soil and health data and open African speech models into twelve decision services and a voice line.",
+      "description": "Checked, local, citable knowledge for Africa on any phone: USSD, SMS, voice, WhatsApp and MCP, with a safety rail, a Scam Shield and verified emergency numbers for 13 countries in English, Swahili and French. Release 2.0 preview adds six decision services on dated public data, each covering all 13 countries wherever open data exists: rain this week, official warnings, nearest health facility, market prices, a pregnancy companion and a crop problem check.",
       "url": "https://github.com/tbrunoh/african-context-engine",
       "codeRepository": "https://github.com/tbrunoh/african-context-engine",
       "programmingLanguage": "Python",
-      "softwareVersion": "1.1.0",
+      "softwareVersion": "2.0.0b1",
       "license": "https://www.apache.org/licenses/LICENSE-2.0",
       "isAccessibleForFree": true,
-      "keywords": "AI for Africa, USSD, SMS, voice, WhatsApp, MCP, emergency numbers, mobile money scams, fall armyworm, maternal health, Swahili, French, public data, AI weather forecasts",
+      "keywords": "AI for Africa, USSD, SMS, voice, WhatsApp, MCP, emergency numbers, mobile money scams, fall armyworm, maternal health, Swahili, French, public data, AI weather forecasts, early warnings, market prices, health facilities, antenatal care",
       "subjectOf": {
         "@id": "https://tbrunoh.github.io/ace/#webpage"
       },
@@ -219,20 +219,21 @@
 
   <header class="hero" id="top">
     <div>
-      <div class="eyebrow">Open source · Release 1.1.0</div>
+      <div class="eyebrow">Open source · Release 2.0 preview</div>
       <h1>ACE, the African Context Engine</h1>
       <p class="lede">Checked, local, citable knowledge for Africa, on any phone. ACE answers on USSD, SMS, voice, WhatsApp, the web and MCP, in English, Swahili and French, across 13 African countries.</p>
-      <p class="lede">Every answer names the published source it came from. Emergencies get the caller's own national numbers before anything else runs. It works with no AI model at all.</p>
+      <p class="lede">Every answer names the published source or dated dataset it came from. Emergencies get the caller's own national numbers before anything else runs. It works with no AI model at all.</p>
+      <p class="lede">The 2.0 preview adds six decision services on public data, from rain this week to the nearest health facility, in all 13 countries wherever the data exists.</p>
       <div class="cta">
         <a class="btn primary" href="https://github.com/tbrunoh/african-context-engine">View on GitHub</a>
-        <a class="btn" href="https://github.com/tbrunoh/african-context-engine/tree/main/docs/v2">Read the V2 design</a>
+        <a class="btn" href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/services.md">See the V2 services</a>
         <a class="btn" href="#contribute">Contribute</a>
       </div>
     </div>
-    <div class="stats" aria-label="ACE release 1.1.0 at a glance">
+    <div class="stats" aria-label="ACE release 2.0 preview at a glance">
       <div class="stat"><b class="t-teal">13</b><span>African countries covered by one engine</span></div>
       <div class="stat"><b class="t-sky">54</b><span>verified emergency and helpline numbers</span></div>
-      <div class="stat"><b class="t-amber">6</b><span>entry points, from USSD to MCP</span></div>
+      <div class="stat"><b class="t-amber">6</b><span>decision services on dated public data</span></div>
       <div class="stat"><b class="t-violet">3</b><span>languages: English, Swahili and French</span></div>
     </div>
   </header>
@@ -267,7 +268,7 @@
       <div class="card">
         <span class="tag t-sky">Cited answers</span>
         <h3>Advice people can trust</h3>
-        <p>Fall armyworm, maize drying and aflatoxin, and danger signs in pregnancy and after birth, drawn from WHO, FAO, ICIPE and KALRO guidance. Every answer names its source, and draft or expired facts are withheld by default.</p>
+        <p>Crop pests and diseases, maize storage, danger signs in pregnancy and antenatal checks, drawn from WHO, FAO, CIMMYT, CABI, IITA, ICIPE and KALRO guidance. Every answer names its source, and draft or expired facts are withheld by default.</p>
       </div>
       <div class="card">
         <span class="tag t-violet">MCP server</span>
@@ -285,13 +286,13 @@
   <section id="how" aria-labelledby="how-h">
     <div class="eyebrow">How it works</div>
     <h2 id="how-h">One engine behind every channel, and safety runs first</h2>
-    <p class="intro">Thin adapters turn each channel into one message type. The engine keeps one pseudonymous profile per person across channels, runs the safety rail, then commands, Scam Shield and retrieval over sourced context packs, and composes an answer that fits the channel.</p>
+    <p class="intro">Thin adapters turn each channel into one message type. The engine keeps one pseudonymous profile per person across channels, runs the safety rail, then commands, Scam Shield, the V2 decision services and retrieval over sourced context packs, and composes an answer that fits the channel.</p>
     <figure>
       <img src="/ace/architecture.svg" alt="ACE architecture: six entry points share one pseudonymous identity whose dialling code picks the country; the engine runs the safety rail, Scam Shield, checked context retrieval and cited answers over sourced context packs, with an optional model kept to the facts" width="1200" height="470" loading="lazy">
     </figure>
     <div class="points">
-      <div><h4>Grounded or silent</h4><p>Nothing reaches a person unless it comes from a checked fact or is a fixed system message.</p></div>
-      <div><h4>Honest about gaps</h4><p>When no checked fact matches, ACE says so and lists what it can help with.</p></div>
+      <div><h4>Grounded or silent</h4><p>Nothing reaches a person unless it comes from a checked fact, a dated snapshot or is a fixed system message.</p></div>
+      <div><h4>Honest about gaps</h4><p>When no checked fact matches, or a country has no data for a service, ACE says so and names who to ask.</p></div>
       <div><h4>No lock in</h4><p>Python standard library plus PyYAML. Any OpenAI compatible model server works, including models you host yourself.</p></div>
     </div>
   </section>
@@ -299,7 +300,7 @@
   <section id="coverage" aria-labelledby="coverage-h">
     <div class="eyebrow">Coverage</div>
     <h2 id="coverage-h">Thirteen countries, one engine, and every caller gets their own country's numbers</h2>
-    <p class="intro">The caller's dialling code picks the country, so the emergency numbers, topics and default language always fit that person. Release 1.1.0 holds 67 facts across 18 packs, each checked against a published public source on 23 November 2026.</p>
+    <p class="intro">The caller's dialling code picks the country, so the emergency numbers, topics and default language always fit that person. Release 2.0 preview holds 77 facts across 20 packs, each checked against a published public source in November 2026, plus dated snapshots of public data for every country.</p>
     <ul class="countries">
       <li>Kenya <span>+254</span></li>
       <li>Tanzania <span>+255</span></li>
@@ -315,31 +316,25 @@
       <li>Côte d'Ivoire <span>+225</span></li>
       <li>Togo <span>+228</span></li>
     </ul>
-    <p class="note">Every emergency number expires after a year, so it is checked again before it is served. Swahili and French renderings await review by fluent speakers. The full table of numbers and sources is in the <a href="https://github.com/tbrunoh/african-context-engine#coverage-13-countries">README</a>.</p>
+    <p class="note">Every emergency number expires after a year, and a number watcher rechecks each one against its source every week. Swahili and French renderings await review by fluent speakers. The full table of numbers and sources is in the <a href="https://github.com/tbrunoh/african-context-engine#coverage-13-countries">README</a>.</p>
   </section>
 
   <section id="v2" aria-labelledby="v2-h">
-    <div class="eyebrow">V2 · Published 24 November 2026</div>
-    <h2 id="v2-h">V2 turns public weather, flood, soil and health data into decisions on any phone</h2>
-    <p class="intro">The data now exists: AI weather and flood forecasts, soil maps, health facility registries, WHO guidance and open speech data in African languages. V2 turns each into a short, cited answer. It is a published design, and work starts in December 2026 across four quarterly phases.</p>
+    <div class="eyebrow">V2 · Preview released 24 November 2026</div>
+    <h2 id="v2-h">Six decision services now answer from public data, in all 13 countries</h2>
+    <p class="intro">Release 2.0 preview turns public weather forecasts, official warnings, facility lists, market prices and WHO guidance into short, cited answers on any phone. Each service covers all 13 countries wherever open data exists and names the gap where it does not. The safety rail still runs first, and every answer carries its source and date.</p>
     <figure>
       <img src="/ace/v2.svg" alt="ACE V2 in one picture: public data and open models go in; ACE fetches them into dated snapshots, runs the safety rail first and applies a published decision rule; people get a short, cited answer on any phone" width="1200" height="540" loading="lazy">
     </figure>
-    <ul class="services" aria-label="The twelve V2 decision services">
-      <li>Emergency and helplines</li>
+    <ul class="services" aria-label="The six services in the 2.0 preview">
       <li>Rain this week</li>
-      <li>Planting window</li>
-      <li>Flood warning</li>
       <li>Official warnings</li>
-      <li>Soil and fertiliser</li>
-      <li>Pest and disease check</li>
-      <li>Market prices and food outlook</li>
       <li>Nearest health facility</li>
-      <li>Pregnancy and newborn companion</li>
-      <li>Health worker assist</li>
-      <li>Scam Shield 2</li>
+      <li>Market prices</li>
+      <li>Pregnancy companion</li>
+      <li>Crop problem check</li>
     </ul>
-    <p class="note">V2 also adds a voice line in Swahili, Hausa, Yoruba, French and English built on open speech data such as WAXAL. Read the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/product-spec.md">product spec</a>, the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/data-catalog.md">data and model catalog</a> and the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/build-plan.md">build plan</a>.</p>
+    <p class="note">The services are a preview until they pass expert review, forecast skill and fluent speaker gates. The gaps are named in each answer: Rwanda and Namibia publish no warning feed ACE can read, and WFP has no current prices for Botswana, South Africa, Namibia, Zimbabwe or Ghana. Still to come: the planting window, soil advice, flood forecasts, Scam Shield 2, health worker assist and a voice line in Swahili, Hausa, Yoruba, French and English. Read the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/services.md">services guide</a>, the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/product-spec.md">product spec</a> and the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/build-plan.md">build plan</a>.</p>
   </section>
 
   <section id="contribute" aria-labelledby="contribute-h">
@@ -390,6 +385,10 @@ ace serve   <span class="c"># phone playground on 127.0.0.1:8000</span></pre>
       <details>
         <summary>Which countries and languages does ACE cover?</summary>
         <p>Kenya, Tanzania, Uganda, Rwanda, South Africa, Botswana, Namibia, Zimbabwe, Nigeria, Ghana, Senegal, Côte d'Ivoire and Togo, in English, Swahili and French. V2 plans voice in Hausa and Yoruba as well.</p>
+      </details>
+      <details>
+        <summary>What can the 2.0 preview answer?</summary>
+        <p>Whether rain is likely each day this week in a person's area, whether an official warning is in force, the nearest public health facilities, what a food cost in the nearest market, when the next antenatal check is due, and the likely problem with maize, cassava, banana or tomato. Each answer cites a dated dataset or a sourced fact, and the services are labelled a preview until they pass expert review.</p>
       </details>
       <details>
         <summary>Is ACE free to use?</summary>
