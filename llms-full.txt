@@ -18,9 +18,9 @@ I shape strategy for how AI agents reach the web: what they can access, how they
 
 [Image: Portrait of Tom Bruno]
 
-[Image: A map of Tom Bruno's path from Nairobi, where it began, to Dublin, where his Google career started, to San Francisco today, with TB at the centre of agents, protocols, publishers, merchants, value exchange, trust and developers.]
+[Image: A map of Tom Bruno's path from Nairobi, where it began, to Dublin, where his Google career started, to Paris for HEC Paris, to San Francisco today, with TB at the centre of agents, protocols, publishers, merchants, value exchange, trust and developers.]
 
-Nairobi · Dublin · San Francisco
+Nairobi · Dublin · Paris · San Francisco
 
 AI is only as useful as the ecosystem it can safely reach.
 
