@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ACE, the African Context Engine | Open source AI for any phone in Africa</title>
+<title>ACE, the African Context Engine: open source AI for Africa</title>
 <meta name="description" content="ACE gives checked, cited answers for Africa on any phone (USSD, SMS/RCS, voice, WhatsApp and MCP), in eight languages across 34 countries. Open source.">
 <meta name="author" content="Tom Bruno">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -30,6 +30,7 @@
 <meta name="twitter:title" content="ACE, the African Context Engine">
 <meta name="twitter:description" content="ACE gives checked, cited answers for Africa on any phone (USSD, SMS/RCS, voice, WhatsApp and MCP), in eight languages across 34 countries. Open source.">
 <meta name="twitter:image" content="https://tbrunoh.github.io/ace/og.png">
+<meta name="twitter:image:alt" content="ACE, the African Context Engine: checked, local, citable knowledge for Africa, on any phone">
 
 <script type="application/ld+json">
 {
@@ -39,11 +40,11 @@
       "@type": "WebPage",
       "@id": "https://tbrunoh.github.io/ace/#webpage",
       "url": "https://tbrunoh.github.io/ace/",
-      "name": "ACE, the African Context Engine | Open source AI for any phone in Africa",
+      "name": "ACE, the African Context Engine: open source AI for Africa",
       "description": "ACE gives checked, cited answers for Africa on any phone (USSD, SMS/RCS, voice, WhatsApp and MCP), in eight languages across 34 countries. Open source.",
       "inLanguage": "en-US",
       "datePublished": "2026-11-24T13:00:00-08:00",
-      "dateModified": "2026-11-25T15:00:00-08:00",
+      "dateModified": "2026-11-25T16:00:00-08:00",
       "primaryImageOfPage": {
         "@type": "ImageObject",
         "url": "https://tbrunoh.github.io/ace/og.png",
@@ -86,7 +87,7 @@
       "@id": "https://github.com/tbrunoh/african-context-engine",
       "name": "ACE: the African Context Engine",
       "alternateName": "African Context Engine",
-      "description": "Checked, local, citable knowledge for Africa on any phone (USSD, SMS/RCS, voice, WhatsApp and MCP), with a safety rail, a Scam Shield and verified emergency numbers for 34 countries in English, Swahili, French, Portuguese, Arabic, Amharic, Afaan Oromo and Somali. Six decision services on dated public data cover every country wherever open data exists: rain this week, official warnings, nearest health facility, market prices, a pregnancy companion and a crop problem check. Release 2.1 preview added 21 countries and five languages.",
+      "description": "Checked, local, citable knowledge for Africa on any phone (USSD, SMS/RCS, voice, WhatsApp and MCP), with a safety rail, a Scam Shield and verified emergency numbers for 34 countries in English, Swahili, French, Portuguese, Arabic, Amharic, Afaan Oromo and Somali. Six decision services on dated public data cover every country wherever open data exists: rain this week, official warnings, nearest health facility, market prices, a pregnancy companion and a crop problem check. Release 2.1 preview added 21 countries and five languages. Release 2.2 preview added speech and translation, and Amharic and Somali on the voice line.",
       "url": "https://github.com/tbrunoh/african-context-engine",
       "codeRepository": "https://github.com/tbrunoh/african-context-engine",
       "programmingLanguage": "Python",
@@ -138,7 +139,7 @@
           "name": "Does ACE need a smartphone or mobile data?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. USSD, SMS and voice are the default, because they reach any mobile phone with no app and no data plan. People with a smartphone and data can choose WhatsApp, or RCS where their carrier supports it, to see the sources under every answer, with suggested replies on RCS. RCS falls back to SMS, so a reply never depends on RCS. Apps and web pages can also be built on the ACE API."
+            "text": "No. USSD, SMS and voice are the default, because they reach any mobile phone with no app and no data plan. People with a smartphone and data can choose WhatsApp, or RCS where their carrier supports it, to see the sources under every answer, with suggested replies on RCS. RCS falls back to SMS, so a reply never depends on RCS; it is on the main branch and ships in the next release. Apps and web pages can also be built on the ACE API."
           }
         },
         {
@@ -205,7 +206,7 @@
 
 <link rel="preload" href="/assets/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/coast.css?v=20261125c">
+<link rel="stylesheet" href="/assets/coast.css?v=20261125d">
 </head>
 <body>
 <header class="topbar">
@@ -235,7 +236,7 @@
     </div>
     <div class="stats rise d2" aria-label="ACE release 2.2 preview at a glance">
       <div class="stat"><b>34</b><span>African countries covered by one engine</span></div>
-      <div class="stat"><b>105</b><span>verified emergency and helpline numbers</span></div>
+      <div class="stat"><b>110</b><span>verified emergency and helpline numbers</span></div>
       <div class="stat"><b>6</b><span>decision services on dated public data</span></div>
       <div class="stat"><b>8</b><span>languages, from Swahili and French to Arabic and Amharic</span></div>
     </div>
@@ -260,7 +261,7 @@
 
   <section id="problems" aria-labelledby="problems-h">
     <div class="eyebrow">What it solves</div>
-    <h2 id="problems-h">Six problems ACE solves today</h2>
+    <h2 id="problems-h">Six things ACE does today</h2>
     <div class="grid">
       <div class="card">
         <span class="tag t-tide">Any phone</span>
@@ -300,18 +301,18 @@
     <h2 id="how-h">One engine behind every channel, and safety runs first</h2>
     <p class="intro">Thin adapters turn each channel into one message type. The engine keeps one pseudonymous profile per person across channels, runs the safety rail, then commands, Scam Shield, the V2 decision services and retrieval over sourced context packs, and composes an answer that fits the channel.</p>
     <figure>
-      <img src="/ace/architecture.svg" alt="ACE architecture: USSD, SMS and voice reach any phone by default; WhatsApp, RCS and apps built on the API serve smartphones, with RCS falling back to SMS; the API and MCP serve other services and AI assistants. All share one pseudonymous identity whose dialling code picks the country; the engine runs the safety rail, Scam Shield, checked context retrieval and cited answers over sourced context packs, with an optional model kept to the facts" width="1000" height="574" loading="lazy">
+      <img src="/ace/architecture.svg" alt="ACE architecture: USSD, SMS and voice reach any phone by default; WhatsApp, RCS and apps built on the API serve smartphones, with RCS falling back to SMS; the API and MCP serve other services and AI assistants. All share one pseudonymous identity whose dialling code picks the country; the engine runs the safety rail, Scam Shield, the decision services, checked context retrieval and cited answers over sourced context packs, with an optional model kept to the facts" width="1000" height="594" loading="lazy">
     </figure>
     <div class="points">
       <div><h3 class="minor">Grounded or silent</h3><p>Nothing reaches a person unless it comes from a checked fact, a dated snapshot or is a fixed system message.</p></div>
       <div><h3 class="minor">Honest about gaps</h3><p>When no checked fact matches, or a country has no data for a service, ACE says so and names who to ask.</p></div>
-      <div><h3 class="minor">No lock in</h3><p>Python standard library plus PyYAML. Any OpenAI compatible model server works, including models you host yourself.</p></div>
+      <div><h3 class="minor">No lock-in</h3><p>Python standard library plus PyYAML. Any OpenAI compatible model server works, including models you host yourself.</p></div>
     </div>
   </section>
 
   <section id="coverage" aria-labelledby="coverage-h">
     <div class="eyebrow">Coverage</div>
-    <h2 id="coverage-h">Thirty four countries, one engine, and every caller gets their own country's numbers</h2>
+    <h2 id="coverage-h">34 countries, one engine, and every caller gets their own country's emergency guidance</h2>
     <p class="intro">The caller's dialling code picks the country, so the emergency numbers, topics and default language always fit that person. The 2.2 preview holds 98 facts across 41 packs, each checked against a published public source in November 2026, plus dated snapshots of public data for every country.</p>
     <ul class="countries">
       <li>Kenya <span>+254</span></li>
@@ -354,12 +355,12 @@
 
   <section id="v2" aria-labelledby="v2-h">
     <div class="eyebrow">V2 · Release 2.2 preview, 25 November 2026</div>
-    <h2 id="v2-h">Six decision services now answer from public data, in all 34 countries and eight languages</h2>
+    <h2 id="v2-h">Six decision services now answer from public data across 34 countries, and name the gap where data is missing</h2>
     <p class="intro">ACE turns public weather forecasts, official warnings, facility lists, market prices and WHO guidance into short, cited answers on any phone. Each service covers every country wherever open data exists and names the gap where it does not. Release 2.1 added 21 countries, five languages, and replies sized for the alphabet each language travels in. The safety rail still runs first, and every answer carries its source and date.</p>
     <figure>
       <img src="/ace/v2.svg" alt="ACE V2 in one picture: public data and open models go in; ACE fetches them into dated snapshots, runs the safety rail first and applies a published decision rule; people get a short, cited answer on any phone" width="1000" height="656" loading="lazy">
     </figure>
-    <ul class="services" aria-label="The six services in the 2.1 preview">
+    <ul class="services" aria-label="The six decision services">
       <li>Rain this week</li>
       <li>Official warnings</li>
       <li>Nearest health facility</li>
@@ -372,9 +373,9 @@
 
   <section id="speech" class="warm" aria-labelledby="speech-h">
     <div class="eyebrow">Release 2.2 preview · Speech and translation</div>
-    <h2 id="speech-h">ACE is now tested on real African speech, and its voice line can now speak Amharic and Somali</h2>
+    <h2 id="speech-h">ACE is tested on transcripts of real African speech, and its voice line speaks Amharic and Somali</h2>
     <p class="intro">Release 2.2 runs ACE's language guess, safety rail and service router on 12,333 sentences of real speech text from WAXAL, the open African speech corpus from Google Research and seven African partners. ACE recognises Amharic, Swahili and Afaan Oromo in 93% to 100% of those sentences, and the safety rail fired on 3 ordinary sentences out of 12,333. The voice line reads English, Swahili, French, Portuguese and Arabic with Google Cloud voices, and plays Amharic and Somali audio made with Gemini 3.8 Flash TTS. No Google model speaks Afaan Oromo yet, so Oromo callers get the full reply on SMS and USSD in their own language.</p>
-    <p class="note">Optional Google Cloud providers hear spoken questions with Chirp 3, speak replies and give fluent reviewers a back translation of every string. Machine translation never answers a person. The gap is named: ACE still reads many languages it does not speak as Swahili, now in 45.8% of sentences, down from 54.0%. Read the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/speech.md">speech and translation guide</a> and the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/benchmark/results/waxal.md">WAXAL results</a>.</p>
+    <p class="note">Optional Google Cloud providers hear spoken questions with Chirp 3, speak replies and give fluent reviewers a back translation of every string. Machine translation never answers a person. The gap is named: across 23 languages it does not speak, ACE still mistakes an average of 45.8% of sentences for one of its own languages, most often Swahili, down from 54.0%. Read the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/speech.md">speech and translation guide</a> and the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/benchmark/results/waxal.md">WAXAL results</a>.</p>
   </section>
 
   <section id="contribute" aria-labelledby="contribute-h">
@@ -416,7 +417,7 @@ ace serve   <span class="c"># phone playground on 127.0.0.1:8000</span></pre>
       </details>
       <details>
         <summary>Does ACE need a smartphone or mobile data?</summary>
-        <p>No. USSD, SMS and voice are the default, because they reach any mobile phone with no app and no data plan. People with a smartphone and data can choose WhatsApp, or RCS where their carrier supports it, to see the sources under every answer, with suggested replies on RCS. RCS falls back to SMS, so a reply never depends on RCS. Apps and web pages can also be built on the ACE API.</p>
+        <p>No. USSD, SMS and voice are the default, because they reach any mobile phone with no app and no data plan. People with a smartphone and data can choose WhatsApp, or RCS where their carrier supports it, to see the sources under every answer, with suggested replies on RCS. RCS falls back to SMS, so a reply never depends on RCS; it is on the main branch and ships in the next release. Apps and web pages can also be built on the ACE API.</p>
       </details>
       <details>
         <summary>Does ACE work by voice in African languages?</summary>
