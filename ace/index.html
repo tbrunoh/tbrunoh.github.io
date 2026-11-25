@@ -42,7 +42,7 @@
       "description": "ACE is open source software that gives checked, local, citable knowledge for Africa on any phone, over USSD, SMS, voice, WhatsApp and MCP, with verified emergency numbers for 34 countries in eight languages and a mobile money Scam Shield.",
       "inLanguage": "en-US",
       "datePublished": "2026-11-24T13:00:00-08:00",
-      "dateModified": "2026-11-24T23:55:00-08:00",
+      "dateModified": "2026-11-25T07:35:00-08:00",
       "primaryImageOfPage": {
         "@type": "ImageObject",
         "url": "https://tbrunoh.github.io/ace/og.png",
@@ -89,7 +89,7 @@
       "url": "https://github.com/tbrunoh/african-context-engine",
       "codeRepository": "https://github.com/tbrunoh/african-context-engine",
       "programmingLanguage": "Python",
-      "softwareVersion": "2.1.0b1",
+      "softwareVersion": "2.2.0b1",
       "license": "https://www.apache.org/licenses/LICENSE-2.0",
       "isAccessibleForFree": true,
       "keywords": "AI for Africa, USSD, SMS, voice, WhatsApp, MCP, emergency numbers, mobile money scams, fall armyworm, maternal health, Swahili, French, Portuguese, Arabic, Amharic, Afaan Oromo, Somali, public data, AI weather forecasts, early warnings, market prices, health facilities, antenatal care",
@@ -219,7 +219,7 @@
 
   <header class="hero" id="top">
     <div>
-      <div class="eyebrow">Open source · Release 2.1 preview</div>
+      <div class="eyebrow">Open source · Release 2.2 preview</div>
       <h1>ACE, the African Context Engine</h1>
       <p class="lede">Checked, local, citable knowledge for Africa, on any phone. ACE answers on USSD, SMS, voice, WhatsApp, the web and MCP, in eight languages across 34 African countries: English, Swahili, French, Portuguese, Arabic, Amharic, Afaan Oromo and Somali.</p>
       <p class="lede">Every answer names the published source or dated dataset it came from. Emergencies get the caller's own national numbers before anything else runs. It works with no AI model at all.</p>
@@ -230,7 +230,7 @@
         <a class="btn" href="#contribute">Contribute</a>
       </div>
     </div>
-    <div class="stats" aria-label="ACE release 2.1 preview at a glance">
+    <div class="stats" aria-label="ACE release 2.2 preview at a glance">
       <div class="stat"><b class="t-teal">34</b><span>African countries covered by one engine</span></div>
       <div class="stat"><b class="t-sky">105</b><span>verified emergency and helpline numbers</span></div>
       <div class="stat"><b class="t-amber">6</b><span>decision services on dated public data</span></div>
@@ -341,7 +341,7 @@
   </section>
 
   <section id="v2" aria-labelledby="v2-h">
-    <div class="eyebrow">V2 · Release 2.1 preview, 24 November 2026</div>
+    <div class="eyebrow">V2 · Release 2.2 preview, 25 November 2026</div>
     <h2 id="v2-h">Six decision services now answer from public data, in all 34 countries and eight languages</h2>
     <p class="intro">ACE turns public weather forecasts, official warnings, facility lists, market prices and WHO guidance into short, cited answers on any phone. Each service covers every country wherever open data exists and names the gap where it does not. Release 2.1 added 21 countries, five languages, and replies sized for the alphabet each language travels in. The safety rail still runs first, and every answer carries its source and date.</p>
     <figure>
@@ -355,7 +355,14 @@
       <li>Pregnancy companion</li>
       <li>Crop problem check</li>
     </ul>
-    <p class="note">The services are a preview until they pass expert review, forecast skill and fluent speaker gates. The gaps are named in each answer: rain, the pregnancy companion and the crop check work in all 34 countries, official warnings in 29, the facility finder in 29 (the open list stops at the Sahara) and market prices in 23. Still to come: the planting window, soil advice, flood forecasts, Scam Shield 2, health worker assist and a voice line in Swahili, Hausa, Yoruba, French and English. Read the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/release-2.1.md">2.1 design</a>, the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/services.md">services guide</a>, the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/product-spec.md">product spec</a> and the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/build-plan.md">build plan</a>.</p>
+    <p class="note">The services are a preview until they pass expert review, forecast skill and fluent speaker gates. The gaps are named in each answer: rain, the pregnancy companion and the crop check work in all 34 countries, official warnings in 29, the facility finder in 29 (the open list stops at the Sahara) and market prices in 23. Still to come: the planting window, soil advice, flood forecasts, Scam Shield 2, health worker assist, spoken replies in Amharic, Afaan Oromo and Somali, and speech recognition tuned on WAXAL. Read the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/release-2.1.md">2.1 design</a>, the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/services.md">services guide</a>, the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/product-spec.md">product spec</a> and the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/v2/build-plan.md">build plan</a>.</p>
+  </section>
+
+  <section id="speech" aria-labelledby="speech-h">
+    <div class="eyebrow">Release 2.2 preview · Speech and translation</div>
+    <h2 id="speech-h">ACE is now tested on real African speech, and its voice line speaks only languages a voice exists for</h2>
+    <p class="intro">Release 2.2 runs ACE's language guess, safety rail and service router on 12,333 sentences of real speech text from WAXAL, the open African speech corpus from Google Research and six African partners. ACE recognises Amharic, Swahili and Afaan Oromo in 93% to 100% of those sentences, and the safety rail fired on 3 ordinary sentences out of 12,333. No published voice speaks Amharic, Afaan Oromo or Somali yet, so the voice line speaks the next language of the caller's country that has one, and the full reply arrives on SMS and USSD in the caller's own language.</p>
+    <p class="note">Optional Google Cloud providers hear spoken questions with Chirp 3, speak replies and give fluent reviewers a back translation of every string. Machine translation never answers a person. The gap is named: ACE still reads many languages it does not speak as Swahili, now in 45.8% of sentences, down from 54.0%. Read the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/docs/speech.md">speech and translation guide</a> and the <a href="https://github.com/tbrunoh/african-context-engine/blob/main/benchmark/results/waxal.md">WAXAL results</a>.</p>
   </section>
 
   <section id="contribute" aria-labelledby="contribute-h">
@@ -398,6 +405,10 @@ ace serve   <span class="c"># phone playground on 127.0.0.1:8000</span></pre>
       <details>
         <summary>Does ACE need a smartphone or mobile data?</summary>
         <p>No. USSD, SMS and voice work on any mobile phone without an app or a data plan. WhatsApp and the web are there for people who have them.</p>
+      </details>
+      <details>
+        <summary>Does ACE work by voice in African languages?</summary>
+        <p>Partly. The keypad voice line works on any phone, and it speaks English, Swahili, French, Portuguese and Arabic. Amharic, Afaan Oromo and Somali callers hear the next language of their country with a voice and get the full reply on SMS and USSD in their own language, because no published voice speaks those three yet. Spoken questions work through Google Cloud speech recognition where a model exists.</p>
       </details>
       <details>
         <summary>Does ACE use a large language model?</summary>
