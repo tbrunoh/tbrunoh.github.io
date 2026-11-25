@@ -239,7 +239,7 @@ How it works
 
 Thin adapters turn each channel into one message type. The engine keeps one pseudonymous profile per person across channels, runs the safety rail, then commands, Scam Shield, the V2 decision services and retrieval over sourced context packs, and composes an answer that fits the channel.
 
-[Image: ACE architecture: USSD, SMS and voice reach any phone by default; WhatsApp, RCS and apps built on the API serve smartphones, with RCS falling back to SMS; the API and MCP serve other services and AI assistants. All share one pseudonymous identity whose dialling code picks the country; the engine runs the safety rail, Scam Shield, checked context retrieval and cited answers over sourced context packs, with an optional model kept to the facts]
+[Image: ACE architecture: USSD, SMS and voice reach any phone by default; WhatsApp, RCS and apps built on the API serve smartphones, with RCS falling back to SMS; the API and MCP serve other services and AI assistants. All share one pseudonymous identity whose dialling code picks the country; the engine runs the safety rail, Scam Shield, the decision services, checked context retrieval and cited answers over sourced context packs, with an optional model kept to the facts]
 
 ### Grounded or silent
 
@@ -418,7 +418,7 @@ The device is a large part of the reason. At the end of 2025, an entry level int
 
 Africa's most important digital service already runs without a smartphone or a data plan. Mobile money works through short code menus and text messages on any handset. [More than $2 trillion](https://www.gsma.com/newsroom/press-release/mobile-money-accounted-for-2-trillion-in-transactions-in-2025-doubling-since-2021-as-active-accounts-continue-to-grow/) moved through mobile money wallets worldwide in 2025, and most new accounts came from Sub-Saharan Africa. People already trust a menu and a text message with their money. Those same channels can carry advice.
 
-Services across the continent are proving the demand:
+Services like these are proving the demand:
 
 - **Health by text.** Jacaranda Health's PROMPTS sends pregnancy and newborn advice by SMS and answers mothers' questions. It [has reached more than 3.8 million mothers in Kenya](https://ehealthafrica.org/press-release/jacaranda-health-ehealth-africa-target-25000-mothers-ai-powered-maternal-health-support-nigeria/) and launched in Kano, Nigeria, in March 2026.
 - **AI by voice call.** MTN Rwanda and Viamo launched Miss Baza, a voice AI that MTN customers reach by dialling 845. It answers out loud in Kinyarwanda, English, French and Kiswahili, with no app or data bundle, and [has reached more than 500,000 users](https://www.newtimes.co.rw/article/40095/news/featured/no-smartphone-no-internet-mtns-miss-baza-brings-ai-powered-services-to-your-phone).
