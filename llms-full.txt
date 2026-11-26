@@ -1,6 +1,6 @@
 # Tom Bruno: full text
 
-> The full text of tbrunoh.github.io for AI agents and readers who prefer plain text: the home page, the ACE project page and both essays, with every source link. A shorter summary is at https://tbrunoh.github.io/llms.txt. Updated 25 November 2026.
+> The full text of tbrunoh.github.io for AI agents and readers who prefer plain text: the home page, the ACE project page and both essays, with every source link. A shorter summary is at https://tbrunoh.github.io/llms.txt. Updated 26 November 2026.
 
 ---
 
@@ -362,7 +362,7 @@ Not as a public service yet. ACE is software that a ministry, NGO, telecom or st
 
 ### Does ACE need a smartphone or mobile data?
 
-No. USSD, SMS and voice are the default, because they reach any mobile phone with no app and no data plan. People with a smartphone and data can choose WhatsApp, or RCS where their carrier supports it, to see the sources under every answer, with suggested replies on RCS. RCS falls back to SMS, so a reply never depends on RCS; it is on the main branch and ships in the next release. Apps and web pages can also be built on the ACE API.
+No. USSD, SMS and voice are the default, because they reach any mobile phone with no app and no data plan. People with a smartphone and data can choose WhatsApp, or RCS where their carrier supports it, to see the sources under every answer, with suggested replies on RCS. RCS falls back to SMS, so a reply never depends on RCS; it shipped in release 2.2.0b3 and is switched on country by country. Apps and web pages can also be built on the ACE API.
 
 ### Does ACE work by voice in African languages?
 
