@@ -152,7 +152,7 @@ Source page: https://tbrunoh.github.io/ace/
 
 [Tom Bruno](https://tbrunoh.github.io/) / ACE
 
-Open source · Release 2.3 preview
+Open source · Release 2.4 preview · Live at ace.korext.com
 
 # ACE, the African Context Engine
 
@@ -162,7 +162,7 @@ Every answer names the published source or dated dataset it came from. Emergenci
 
 Six decision services on public data, from rain this week to the nearest health facility, work in every country wherever the data exists, and name the gap wherever it does not.
 
-[View on GitHub](https://github.com/tbrunoh/african-context-engine) [See the V2 services](https://github.com/tbrunoh/african-context-engine/blob/main/docs/services.md) [Contribute](https://tbrunoh.github.io/ace/#contribute)
+[Try ACE live](https://ace.korext.com/try) [View on GitHub](https://github.com/tbrunoh/african-context-engine) [See the V2 services](https://github.com/tbrunoh/african-context-engine/blob/main/docs/services.md) [Contribute](https://tbrunoh.github.io/ace/#contribute)
 
 **34** African countries covered by one engine
 
